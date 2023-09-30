@@ -1,0 +1,765 @@
+/* CUESTIONES GENERALES*/
+
+/*** Márgenes y paddings ***/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*** Fin de Márgenes y paddings ***/
+
+/*** Títulos ***/
+
+.titulo-seccion {
+    color: #7fab94;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*** Fin de Títulos ***/
+
+/*** Subtítulos ***/
+
+.subtitulo-seccion {
+    color: #7fab94;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*** Fin de subtítulos ***/
+
+/*** Botones ***/
+
+.boton {
+    background-color: #76aa8f;
+    border-radius: 30px;
+    color:#ffffff;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    max-width: fit-content;    
+}
+
+.boton:hover {
+    background: #9ED2BE !important;
+}
+
+/*** Fin de botones ***/
+
+/* FIN DE CUESTIONES GENERALES */
+
+/* ELEMENTOS COMUNES DEL MAIN */
+
+/*** Banner ***/
+
+.banner {
+    width: 100%;
+    margin-top: 30px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #C8E4B2;
+    border-width: 3px;
+}
+
+/*** Fin de Banner ***/
+
+/*** Videos embebidos ***/
+
+.video {
+    width: 560px;
+    height: 360px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+}
+
+/*** Fin de Videos embebidos ***/
+
+/* FIN DE ELEMENTOS COMUNES DEL MAIN */
+
+/* HEADER */
+
+/*** Color de fondo ***/
+
+.custom-header{
+    background-color:#80a993;
+    border-bottom-style: solid;
+    border-bottom-color: #C8E4B2;
+    border-width: 7px;
+}
+
+/*** Fin de Color de fondo ***/
+
+/*** Logo ***/
+
+.logo {
+    height: 100px;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+/*** Fin de Logo ***/
+
+/*** Barra de navegación ***/
+
+.nav-link, .nav-link.active {
+    color:#ffffff !important;
+    letter-spacing: 2px;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center;
+}
+
+.nav-link:hover{
+    color: #fddc09 !important;
+    border-bottom: 2px !important;
+}
+
+.navbar-toggler {
+    color:#ffffff !important;
+    margin-right: 30px;
+}
+
+/*** Fin de Barra de navegación ***/
+
+/* FIN DE HEADER */
+
+/* PÁGINA PRINCIPAL */
+
+/*** Carrusel ***/
+
+.carousel-inner, .carousel-item {
+    margin-top: 10px;
+    height: 500px; 
+}
+
+.carousel-control-prev, .carousel-control-next {
+    margin-top: 350px;
+}
+
+.carousel-caption {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.carousel-item h5, .leyenda-slider {
+    margin-right: 600px;
+    margin-left: 40px;
+    color: #5ba6a6;
+}
+
+/*** Fin de Carrusel ***/
+
+/*** Artículo principal ***/
+
+.seccion-principal {
+    height: 500px;
+    display: flex; 
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo-articulo {
+    text-align: center;
+    color: #7fab94;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.articulo1 {
+    width: 500px;
+    height: 300px;
+    margin-right: 50px;
+    text-align: justify;
+    line-height: 25px;
+    border-bottom: dashed;
+    border-color: #7EAA92;
+}
+
+.boton {
+    margin-left: 190px;  
+}
+
+
+/*** Fin de Artículo principal ***/
+
+/*** Secciones secundarias ***/
+
+.titulo-seccion.B {
+    margin-top: 30px;
+}
+
+.seccion {
+    height: 330px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.elemento-seccion {
+    width: 240px;
+    margin-top: 20px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.enlace-titulo {
+    margin-left: 150px;
+    text-decoration: none;
+    color: #7fab94;
+    text-align: center;
+}
+
+.enlace-titulo:hover {
+    color: #35918e;
+}
+
+.imgseccion:hover {
+    filter: opacity(50%); 
+}
+
+/*** Fin de Secciones secundarias ***/
+
+/* FIN DE PÁGINA PRINCIPAL */
+
+/* PÁGINA NOSOTROS */
+
+/*** Imagen de fondo de la página ***/
+
+.fondo-nosotros {
+    background-image: url(../img/Fondo2.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*** Fin de imagen de fondo de la página ***/
+
+/*** Sección principal ***/
+
+.seccion-principal2 {
+    height: 320px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.articulo2 {
+    width: 520px;
+    height: 250px;
+    margin-right: 60px;
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: justify;
+    line-height: 25px;
+    border-bottom: dashed;
+    border-color: #7EAA92;
+}
+
+/*** Fin de Sección principal ***/
+
+/*** Sección Valores ***/
+
+.seccion-valores {
+    height: 600px;
+    margin-bottom: 120px;
+}
+
+.valores {
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.seccion-valores1, .seccion-valores2, .misiones {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.seccion-valores1 {
+    margin-top: 60px;
+}
+
+/*** Fin de Sección Valores ***/
+
+/*** Sección Misiones ***/
+
+.seccion-misiones {
+    height: 170px;
+    margin-bottom: 220px;
+}
+
+.misiones {
+    margin-top: 60px;
+}
+
+.img-icono {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 80px;
+}
+
+/*** Fin de Sección Misiones ***/
+
+/*** Texto debajo de los íconos ***/
+
+.texto-icono {
+    color: #6bb0a4;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;   
+    margin-top: 20px;
+}
+
+/*** Fin de Texto debajo de los íconos ***/
+
+/* FIN DE PÁGINA NOSOTROS */
+
+/* PÁGINA RECURSOS */
+
+/*** Imagen de fondo de la página ***/
+
+.fondo-recursos {
+    background-image: url(../img/Fondo3.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*** Fin de imagen de fondo de la página ***/
+
+/*** Sección principal ***/
+
+.seccion-principal-recursos {
+    height: 830px;
+    margin-bottom: 30px;
+}
+
+.titulo-seccion.Recursos {
+    margin-top: 80px;
+}
+
+.videorecursos {
+    width: 560px;
+    height: 360px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 375px;
+    align-content: center;    
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+}
+
+.articulo-recursos {
+    height: 320px;
+    text-align: justify;
+    line-height: 25px;
+    padding: 15px;
+    border-bottom: dashed;
+    margin-right: 350px;
+    margin-left: 300px;
+    border-color: #7EAA92;
+}
+
+.botonrec1 {
+    background-color: #76aa8f;
+    border-radius: 30px;
+    padding: 15px;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin-left: 280px;   
+}
+
+.botonrec1:hover {
+    background: #9ED2BE;
+}
+
+/*** Fin de Sección principal ***/
+
+/*** Secciones secundarias ***/
+
+.seccion-recursos {
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.seccion-recursos2 {
+    display: flex; 
+    flex-direction: row-reverse;
+    margin-bottom: 100px;
+}
+
+/*** Fin de Secciones secundarias ***/
+
+/*** Imágenes Secciones secundarias ***/
+
+.imagen-recursos {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+    margin-top: 45px;
+    margin-left: 300px;
+}
+
+.imagen-recursos2 {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-right: 300px;
+}
+
+/*** Fin de Imágenes Secciones secundarias ***/
+
+/*** Botones Secciones secundarias ***/
+
+.botones-seccion-recursos {
+    margin-top: 35px;
+    margin-left: -200px;
+}
+
+.botones-seccion-recursos2 {
+    align-content: stretch;
+    align-items: left;
+    margin-top: 35px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: large;
+}
+
+.botonrec {
+    background-color: #76aa8f;
+    padding: 20px;
+    display: inline-table;
+    border-radius: 30px;
+    color:#ffffff;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    width: 200px;   
+}
+
+.botonrec:hover {
+    background: #9ED2BE;
+}
+
+/*** Fin de Botones Secciones secundarias ***/
+
+/* FIN DE PÁGINA RECURSOS */
+
+/* PÁGINA ESTRATEGIAS */
+
+/*** Imagen de fondo de la página ***/
+
+.fondo-estrategias {
+    background-image: url(../img/Fondo4.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*** Fin de imagen de fondo de la página ***/
+
+/*** Títulos ***/
+
+.titulo-seccion {
+    text-align: center;
+    color: #7fab94;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo-articulo-estrategias {
+    text-align: center;
+    color: #7fab94;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+/*** Fin de Títulos ***/
+
+/*** Artículos ***/
+
+.articulo-estrategias {
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 30px;
+    border-bottom: dashed;
+    border-color: #7EAA92;
+}
+
+/*** Fin de Artículos ***/
+
+/*** Imágenes ***/
+
+.imagen-estrategias {
+    align-items: center;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+/*** Fin de Imágenes ***/
+
+/*** Botón y texto Leer más ***/
+
+.plus-read {
+    margin-right: 10px;
+}
+
+.leer-mas {
+    text-decoration: none !important;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #76aa8f;
+    text-indent: 5px;
+}
+
+.leer-mas:hover {
+    color: #9ED2BE !important;
+}
+
+/*** Fin de Botón y texto Leer más ***/
+
+/*** Segunda sección ***/
+
+.seccion1-estrategias {
+    margin-top: 80px;
+}
+
+.seccion2-estrategias {
+    margin-bottom: 100px;
+}
+
+/*** Fin de Segunda sección ***/
+
+/* FIN DE PÁGINA ESTRATEGIAS */
+
+/* PÁGINA CONTACTO */
+
+/*** Imagen de fondo de la página ***/
+
+.fondo-contacto {
+    background-image: url(../img/Fondo5.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*** Fin de imagen de fondo de la página ***/
+
+/*** Sección Miembros ***/
+
+.titulo-seccion.comunidad {
+    margin-top: 70px;
+}
+
+.contenedor-primera-seccion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 100px;
+    margin: 30px 120px 80px 100px;
+}
+
+.bloque {
+    width: 440px;
+}
+
+.bloque.miembros {
+    width: 400px;
+}
+
+.sub-bloque {
+    background-color: #ffffff;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #89c4a6;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.foto-miembro:hover {
+    filter: opacity(50%);
+}
+
+/*** Fin de Sección Miembros ***/
+
+/*** Sección Proyectos ***/
+
+.foto-proyecto:hover {
+    filter: opacity(50%);
+}
+
+/*** Fin de Sección Proyectos ***/
+
+/*** Sección Comunidad ***/
+
+.contenedor-segunda-seccion {
+    display: grid;
+    grid-template-columns: 25% 60%;
+    gap: 30px;
+}
+
+.subtitulo-seccion.mapa {
+    margin: 20px 0px 0px 230px;
+}
+
+/*** Fin de Sección Comunidad ***/
+
+/*** Card lateral Mapa ***/
+
+.card {
+    width: 19rem;
+    margin: 190px 50px 0px -325px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*** Fin de Card lateral Mapa ***/
+
+/*** Mapa ***/
+
+.mapa {
+    width: 900px;
+    height: 500px;
+    margin: -450px 0px 80px 400px;
+}
+
+/*** Fin de Mapa ***/
+
+/*** Sección Contacto ***/
+
+.contenedor-tercera-seccion {
+    display: grid;
+    grid-template-columns: 25% 65%;
+}
+
+.subtitulo-seccion.consultas {
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-left: 840px;
+}
+
+/*** Fin de Sección Contacto ***/
+
+/*** Card lateral Mapa ***/
+
+.card.dos {
+    width: 22rem;
+    text-align: center;
+    font-weight:lighter;
+    margin: 170px 0px -50px -260px;
+    align-self: center;
+}
+
+/*** Fin de Card lateral Mapa ***/
+
+/*** Formulario ***/
+
+.formulario {
+    width: 750px;
+    margin: -585px 0px 40px 520px; 
+    border-style: dotted;
+    border-color: #89c4a6;
+    border-width: 3px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    color: #4a8064;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+}
+
+input, textarea, fieldset, select {
+    margin: 5px 0 5px 0;
+    cursor:pointer;
+}
+
+.form-check {
+    margin-top: 10px;
+    align-content: center;
+    text-align: left;
+}
+
+button {
+    background-color: #89c4a6;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 30px;
+    border-color: #89c4a6;
+    border-style: none;
+    font-size: medium;
+    font-weight: bolder;
+    color: #ffff;
+    cursor:pointer;
+}
+
+button:hover {
+    background: #9ED2BE;
+}
+
+/*** Fin de Formulario ***/
+
+/* FIN DE PÁGINA CONTACTO */
+
+/* FOOTER */
+
+footer {
+    background-color: #80a993;
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-color: #C8E4B2;
+    border-width: 7px;
+}
+
+.logo-footer {
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+    margin-bottom: 20px;
+}
+
+/*** FIN DE FOOTER ***/
