@@ -352,11 +352,7 @@
 
 /*** Fin de imagen de fondo de la página ***/
 
-/*** Sección principal ***/
-
-.seccion-principal-recursos {
-    height: 800px;
-}
+/*** Artículo principal ***/
 
 .titulo-seccion.Recursos {
     margin-top: 60px;
@@ -366,7 +362,6 @@
     width: 560px;
     height: 360px;
     margin-bottom: 15px;
-    margin-left: 260px;
     border-style: dotted;
     border-width: 5px;
     border-color: #89c4a6;
@@ -377,34 +372,12 @@
     text-align: justify;
     line-height: 25px;
     padding: 15px;
-    margin: 0px 150px 30px 150px;
+    margin: 0px 200px 80px 200px;
     border-bottom: dashed;
     border-color: #7EAA92;
 }
 
-.botonrec1 {
-    background-color: #76aa8f;
-    border-radius: 30px;
-    padding: 15px;
-    color:#ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 0.3px;
-}
-
-.botonrec1:hover {
-    background: #9ED2BE;
-}
-
-/*** Fin de Sección principal ***/
-
-/*** Secciones secundarias ***/
-
-.seccion-recursos, .seccion-recursos2 {
-    margin-bottom: 50px;
-}
-
-/*** Fin de Secciones secundarias ***/
+/*** Fin de Artículo principal ***/
 
 /*** Imágenes Secciones secundarias ***/
 
@@ -414,34 +387,12 @@
     border-color: #89c4a6;
     border-radius: 50px;
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 
-.imagen-recursos {
-    margin-left: 200px;
-}
-
-.imagen-recursos2 {
-    margin-left: 500px;
-}
 /*** Fin de Imágenes Secciones secundarias ***/
 
 /*** Botones Secciones secundarias ***/
-
-.botones-seccion-recursos {
-    margin-top: 35px;
-    margin-top: -290px;
-    margin-left: 660px;
-}
-
-.botones-seccion-recursos2 {
-    align-content: stretch;
-    align-items: left;
-    margin-top: 35px;
-    text-align: center;
-    font-size: large;
-    margin-top: -290px;
-    margin-right: 400px;
-}
 
 .botonrec {
     background-color: #76aa8f;
@@ -455,11 +406,21 @@
     text-decoration: none;
     letter-spacing: 0.3px;
     margin-bottom: 10px;
-    width: 200px;   
+    width: 200px;
 }
 
 .botonrec:hover {
     background: #9ED2BE;
+}
+
+.botones-recursos1 {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.botones-recursos2 {
+    margin-top: 35px;
+    margin-right: 30px;
 }
 
 /*** Fin de Botones Secciones secundarias ***/
@@ -753,4 +714,79 @@ footer {
     margin-bottom: 20px;
 }
 
-/*** FIN DE FOOTER ***/
+/* FIN DE FOOTER */
+
+/* MEDIA QUERIES PÁGINA RECURSOS */
+
+/*** Tablet ***/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .videorecursos {
+        width: 300px; 
+        height: 200px;
+    }
+
+    .articulo-recursos {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .imagen-recursos, .imagen-recursos2 {
+        display: none;
+    }
+
+    .botonrec, .botones-recursos1, .botones-recursos2  {
+        width: 120px; 
+        font-size: small;
+    }
+
+    .botones-recursos1 {
+        margin-bottom: 50px;
+        margin-left: -60px;
+    }
+
+}
+
+/*** Fin de Tablet ***/
+
+/*** Mobile ***/
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    .videorecursos {
+        width: 250px; 
+        height: 150px;
+    }
+
+    .articulo-recursos {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .imagen-recursos, .imagen-recursos2 {
+        display: none;
+    }
+
+    .botonrec, .botones-recursos1 {
+        width: 100px; 
+        font-size: x-small;
+    }
+
+    .botones-recursos1 {
+        margin-bottom: 50px;
+        margin-left: -60px;
+    }
+
+    .subtitulo-seccion.repositorios {
+        display: none;
+    }
+    
+    .botones-recursos2 {
+        display: none;
+    }
+}
+
+/*** Fin de Mobile ***/
+
+/* FIN DE MEDIA QUERIES PÁGINA RECURSOS */
