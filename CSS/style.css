@@ -135,7 +135,7 @@
 /*** Carrusel ***/
 
 .carousel-inner, .carousel-item {
-    margin-top: 10px;
+    margin: 10px 0px 10px 0px;
     height: 500px; 
 }
 
@@ -159,12 +159,8 @@
 /*** Artículo principal ***/
 
 .seccion-principal {
-    height: 500px;
-    display: flex; 
-    margin-bottom: 30px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
 }
 
 .titulo-articulo {
@@ -176,9 +172,8 @@
 }
 
 .articulo1 {
-    width: 500px;
-    height: 300px;
-    margin-right: 50px;
+    width: 450px;
+    height: 350px;
     text-align: justify;
     line-height: 25px;
     border-bottom: dashed;
@@ -189,37 +184,27 @@
     margin-left: 190px;  
 }
 
+.video.inicio {
+    margin-right: 50px;
+}
+
 /*** Fin de Artículo principal ***/
 
 /*** Secciones secundarias ***/
 
-.titulo-seccion.B {
-    margin-top: 30px;
-}
-
-.seccion {
-    height: 330px;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .elemento-seccion {
-    width: 240px;
-    margin-top: 20px;
-    margin-right: 50px;
-    align-items: center;
+    margin-top: -40px;
+    padding: 60px;
 }
 
 .enlace-titulo {
-    margin-left: 150px;
     text-decoration: none;
+    text-indent: 10px;
     color: #7fab94;
-    text-align: center;
 }
 
 .enlace-titulo:hover {
-    color: #35918e;
+    color: #fddc09;
 }
 
 .imgseccion:hover {
@@ -715,6 +700,104 @@ footer {
 }
 
 /* FIN DE FOOTER */
+
+/* MEDIA QUERIES PÁGINA INICIO */
+
+@media (max-width: 1206px) {
+    .carousel.slide {
+        display: none;
+    }
+
+    .enlace-titulo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    .articulo1 {
+        margin-top: 50px;
+        margin-left: 240px;
+    }
+    
+    .video.inicio {
+        margin-left: 260px;
+        width: 420px;
+        height: 300px;
+    }
+
+    .enlace-titulo {
+        text-align: center;
+    }
+
+    .badge.inicio {
+        display: none;
+    }
+}
+
+/*** Tablet ***/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .articulo1 {
+        margin-top: 50px;
+        margin-left: 130px;
+    }
+    
+    .video.inicio {
+        margin-left: 160px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .elemento-seccion {
+        margin-left: 190px;
+    }
+
+    .imgseccion {
+        width: 100px !important;
+    }
+
+    .enlace-titulo {
+        text-align: left;
+    }
+
+    .badge.inicio {
+        display: none;
+    }
+}
+
+/*** Fin de Tablet ***/
+
+/*** Mobile ***/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+}
+
+/*** Fin de Mobile ***/
+
+
+/*** Artículo principal ***/
+
+
+
+
+
+
+
+
+.titulo-seccion.B {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* FIN DE MEDIA QUERIES PÁGINA INICIO */
 
 /* MEDIA QUERIES PÁGINA RECURSOS */
 
