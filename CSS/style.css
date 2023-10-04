@@ -178,6 +178,7 @@
     line-height: 25px;
     border-bottom: dashed;
     border-color: #7EAA92;
+    margin-left: 70px;
 }
 
 .boton {
@@ -185,7 +186,7 @@
 }
 
 .video.inicio {
-    margin-right: 50px;
+    margin-left: 100px;
 }
 
 /*** Fin de Artículo principal ***/
@@ -708,60 +709,150 @@ footer {
         display: none;
     }
 
-    .enlace-titulo {
-        text-align: center;
+    .articulo1 {
+        text-align: justify;
+        line-height: 25px;
+        border-bottom: dashed;
+        border-color: #7EAA92;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .video.inicio {
+        width: 450px;
+        height: 350px;
     }
 }
 
 @media (max-width: 1199px) {
-    .articulo1 {
-        margin-top: 50px;
-        margin-left: 240px;
-    }
-    
-    .video.inicio {
-        margin-left: 260px;
-        width: 420px;
-        height: 300px;
-    }
-
-    .enlace-titulo {
-        text-align: center;
-    }
 
     .badge.inicio {
         display: none;
     }
 }
 
-/*** Tablet ***/
-
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 1150px) {
     .articulo1 {
-        margin-top: 50px;
-        margin-left: 130px;
+        text-align: justify;
+        line-height: 25px;
+        border-bottom: none;
+        border-color: #7EAA92;
+        margin: 0px 80px 20px 30px;
+        width: auto;
+        height: auto;
     }
     
     .video.inicio {
-        margin-left: 160px;
-        width: 400px;
-        height: 300px;
+        width: auto;
     }
 
     .elemento-seccion {
-        margin-left: 190px;
+        width: 70%;
+        text-align: center;
+        margin-left: 170px;
+    }
+}
+
+
+/*** Tablet ***/
+
+@media (min-width: 851px) and (max-width: 901px) {
+    .elemento-seccion {
+        width: 70%;
+        text-align: center;
+        margin-left: 140px;
+    }
+}
+
+@media (min-width: 790px) and (max-width: 850px) {
+    .titulo-articulo {
+        font-size: medium;
     }
 
-    .imgseccion {
-        width: 100px !important;
+    .articulo1 {
+        font-size: small;
+        line-height: 20px;
+        margin-top: 10px;
     }
-
-    .enlace-titulo {
-        text-align: left;
+    
+    .elemento-seccion {
+        width: 70%;
+        text-align: center;
+        margin-left: 120px;
     }
+}
 
-    .badge.inicio {
+@media (min-width: 768px) and (max-width: 789px) {
+    .video.inicio {
         display: none;
+    }
+    
+    .articulo1 {
+        margin-top: 0px;
+        width: 350px;
+        margin-left: -190px;
+        margin-bottom: -30px;
+    }
+
+    .elemento-seccion {
+        margin-left: 130px;
+    }
+}
+
+@media (min-width: 625px) and (max-width: 767px) {
+    .video.inicio {
+        display: none;
+    }
+    
+    .articulo1 {
+        margin-top: 0px;
+        width: 350px;
+        margin-left: -190px;
+        margin-bottom: -30px;
+    }
+
+    .elemento-seccion {
+        margin-right: 150px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 624px) {
+    .video.inicio {
+        display: none;
+    }
+    
+    .articulo1 {
+        margin-top: 0px;
+        width: 350px;
+        margin-left: -190px;
+        margin-bottom: -30px;
+    }
+
+    .elemento-seccion {
+        margin: 0px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 549px) {
+    .video.inicio {
+        display: none;
+    }
+    
+    .articulo1 {
+        display: none;
+    }
+
+    .titulo-seccion {
+        font-size: large;
+        margin-bottom: -30px;
+    }
+
+    .titulo-seccion.rel {
+        margin-top: -140px;
+    }
+
+    .elemento-seccion {
+        margin: 0px;
     }
 }
 
@@ -769,33 +860,38 @@ footer {
 
 /*** Mobile ***/
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 280px) and (max-width: 480px) {
+    .video.inicio {
+        display: none;
+    }
+    
+    .titulo-articulo {
+        display: none;
+    }
 
+    .articulo1 {
+        display: none;    
+    }
+
+    .titulo-seccion {
+        font-size: medium;
+        margin-bottom: -30px;
+    }
+    
+    .titulo-seccion.rel {
+        margin-top: -140px;
+    }
+
+    .elemento-seccion {
+        margin: 0px;
+    }
+
+    .h5 {
+        font-size: medium;
+    }
 }
 
 /*** Fin de Mobile ***/
-
-
-/*** Artículo principal ***/
-
-
-
-
-
-
-
-
-.titulo-seccion.B {
-    margin-top: 30px;
-}
-
-
-
-
-
-
-
-
 
 /* FIN DE MEDIA QUERIES PÁGINA INICIO */
 
