@@ -14,7 +14,7 @@
 .titulo-seccion {
     color: #4a8064 !important;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px !important;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -441,7 +441,10 @@
     font-size: x-large;
     font-weight: bolder;
     margin-top: 50px;
-    margin-bottom: 50px;
+}
+
+.titulo-seccion.seccion2-estrategias {
+    margin-bottom: 30px;
 }
 
 .titulo-articulo-estrategias {
@@ -545,6 +548,12 @@
 }
 
 /*** Fin de Contenedores GRID ***/
+
+/***Subtítulos ***/
+
+.titulo-seccion.contacto, .titulo-seccion.comunidad {
+    font-size: xx-large;
+}
 
 /*** Sección Miembros ***/
 
@@ -695,13 +704,16 @@ button {
     width: 120px;
     height: 40px;
     margin-top: 15px;
-    margin-right: 30px;
     border-color: #89c4a6;
     border-style: none;
     font-size: large;
     letter-spacing: 2px;
     color: #ffff;
     cursor:pointer;
+}
+
+.submit, .reset {
+    align-items: center;
 }
 
 button:hover {
@@ -904,3 +916,43 @@ footer {
 /*** Fin de Mobile ***/
 
 /* FIN DE MEDIA QUERIES PÁGINA RECURSOS */
+
+/* MEDIA QUERIES PÁGINA CONTACTO */
+
+/*** Mobile ***/
+
+@media (min-width: 250px) and (max-width: 600px) {
+    .bloque-miembros, .bloque, .mapa, .formulario {
+        grid-column: span 2;
+    }
+
+    .card, .card.dos {
+        display: none;
+    }
+    
+    .subtitulo-seccion.contacto {
+        margin-top: 50px;
+    }
+
+    .subtitulo-seccion.mapa {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .mapa {
+        margin-left: 40px;
+    }
+
+    .subtitulo-seccion.consultas {
+        margin-left: 430px;
+    }
+
+    .formulario {
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+}
+
+/*** Fin de Mobile ***/
+
+/* FIN DE MEDIA QUERIES PÁGINA CONTACTO */
