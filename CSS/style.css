@@ -159,10 +159,8 @@
 /*** Artículo principal ***/
 
 .seccion-principal {
-    display: grid;
-    place-items: center;
-    margin-top: 100px;
-    margin-bottom: 120px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .titulo-articulo {
@@ -170,44 +168,27 @@
     color: #7fab94;
     font-size: x-large;
     font-weight: bold;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .articulo1 {
-    width: 450px;
-    height: 350px;
     text-align: justify;
     line-height: 25px;
-    border-bottom: dashed;
-    border-color: #7EAA92;
-    margin-left: 70px;
-}
-
-.boton {
-    margin-left: 190px;  
-}
-
-.video.inicio {
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 /*** Fin de Artículo principal ***/
 
 /*** Secciones secundarias ***/
 
-.seccion {
+.elemento-seccion {
     display: grid;
     place-items: center;
 }
 
-.elemento-seccion {
-    margin-top: -40px;
-    padding: 60px;
-}
-
 .enlace-titulo {
     text-decoration: none;
-    text-indent: 10px;
     color: #7fab94;
 }
 
@@ -217,6 +198,11 @@
 
 .imgseccion:hover {
     filter: opacity(50%); 
+}
+
+.badge.inicio {
+    margin-bottom: 150px !important;
+    margin-left: 250px !important;
 }
 
 /*** Fin de Secciones secundarias ***/
@@ -752,79 +738,27 @@ footer {
         display: none;
     }
 
-    .articulo1 {
-        text-align: justify;
-        line-height: 25px;
-        border-bottom: dashed;
-        border-color: #7EAA92;
-        margin-left: 70px;
-        margin-right: 50px;
+    .video.inicio {
+        display: none;
     }
-}
-
-@media (max-width: 1199px) {
 
     .badge.inicio {
         display: none;
     }
-}
 
-@media (max-width: 1120px) {
-    .articulo1 {
-        text-align: justify;
-        line-height: 25px;
-        border-bottom: none;
-        border-color: #7EAA92;
-        margin: 10px 60px 20px 120px;
-        width: auto;
-        height: auto;
+    .seccion-principal {
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
-
-    .elemento-seccion {
-        width: 70%;
-        text-align: center;
-        margin-left: 170px;
+    
+    .articulo1 {
+        font-size: larger;
+        line-height: 35px;
+        margin: 0px 30px 0px 30px;
     }
 }
 
 /*** Fin de Desktop ***/
-
-/*** Mobile ***/
-
-@media (min-width: 320px) and (max-width: 480px) {
-    .video.inicio {
-        display:none;
-    }
-    
-    .titulo-articulo {
-        font-size: medium;
-    }
-
-    .articulo1 {
-        display: none;
-    }
-    
-    .titulo-seccion {
-        font-size: medium;
-        margin-bottom: -30px;
-    }
-    
-    .titulo-seccion.rel {
-        margin-top: -140px;
-    }
-
-    .elemento-seccion {
-        width: 70%;
-        text-align: center;
-        margin: 0px;
-    }
-
-    .h5 {
-        font-size: medium;
-    }
-}
-
-/*** Fin de Mobile ***/
 
 /* FIN DE MEDIA QUERIES PÁGINA INICIO */
 
