@@ -193,7 +193,7 @@
 }
 
 .enlace-titulo:hover {
-    color: #98de84;
+    color: #9ED2BE;
 }
 
 .imgseccion:hover {
@@ -305,12 +305,16 @@
 }
 
 .img-icono:hover {
-    animation:scale-up-bottom 0.8s; 
+    animation:wobble-horizontal-top .8s linear both
 } 
 
-@keyframes scale-up-bottom {
-    0%{transform:scale(.5);transform-origin:center bottom}
-    100%{transform:scale(1);transform-origin:center bottom}
+@keyframes wobble-horizontal-top {
+    0%,100%{transform:translateX(0);transform-origin:50% 50%}
+    15%{transform:translateX(-30px) rotate(6deg)}
+    30%{transform:translateX(15px) rotate(-6deg)}
+    45%{transform:translateX(-15px) rotate(3.6deg)}
+    60%{transform:translateX(9px) rotate(-2.4deg)}
+    75%{transform:translateX(-6px) rotate(1.2deg)}
 }
 
 /*** Fin de Sección Misiones ***/
@@ -750,8 +754,6 @@ footer {
 
 /* MEDIA QUERIES PÁGINA INICIO */
 
-/*** Desktop ***/
-
 @media (max-width: 1206px) {
     .carousel.slide {
         display: none;
@@ -777,7 +779,27 @@ footer {
     }
 }
 
-/*** Fin de Desktop ***/
+@media (min-width: 991px) {
+    .banner.inicio {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .titulo-articulo, .titulo-seccion {
+        font-size: large !important;
+    }
+    
+    .articulo1 {
+        font-size: small;
+        line-height: 35px;
+        margin-top: -30px;
+    }
+
+    .h5 {
+        font-size: 15px !important;
+    }
+}
 
 /* FIN DE MEDIA QUERIES PÁGINA INICIO */
 
