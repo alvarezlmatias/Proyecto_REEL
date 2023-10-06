@@ -193,11 +193,21 @@
 }
 
 .enlace-titulo:hover {
-    color: #fddc09;
+    color: #98de84;
 }
 
 .imgseccion:hover {
-    filter: opacity(50%); 
+    filter: opacity(50%);
+    animation:shake-horizontal 0.8s 
+    linear both
+} 
+    
+@keyframes shake-horizontal {
+    0%,100%{transform:translateX(0)}
+    10%,30%,50%,70%{transform:translateX(-10px)}
+    20%,40%,60%{transform:translateX(10px)}
+    80%{transform:translateX(8px)}
+    90%{transform:translateX(-8px)}
 }
 
 .badge.inicio {
@@ -292,6 +302,15 @@
     border-width: 5px;
     border-color: #89c4a6;
     border-radius: 80px;
+}
+
+.img-icono:hover {
+    animation:scale-up-bottom 0.8s; 
+} 
+
+@keyframes scale-up-bottom {
+    0%{transform:scale(.5);transform-origin:center bottom}
+    100%{transform:scale(1);transform-origin:center bottom}
 }
 
 /*** Fin de Sección Misiones ***/
