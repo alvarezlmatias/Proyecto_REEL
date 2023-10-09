@@ -235,53 +235,35 @@
 /*** Sección principal ***/
 
 .seccion-principal2 {
-    height: 320px;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
     margin-top: 80px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .articulo2 {
-    width: 520px;
-    height: 250px;
-    margin-right: 60px;
-    margin-left: 10px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-right: 40px;
+    margin-top: 40px;
     text-align: justify;
     line-height: 25px;
     border-bottom: dashed;
     border-color: #7EAA92;
 }
 
+.video.articulo2 {
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
 /*** Fin de Sección principal ***/
 
 /*** Sección Valores ***/
 
-.seccion-valores {
-    height: 600px;
-    margin-bottom: 120px;
-}
-
 .valores {
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
-.seccion-valores1, .seccion-valores2, .misiones {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.seccion-valores1 {
-    margin-top: 60px;
+.valores, .misiones {
+    display: grid;
+    place-items: center;
 }
 
 /*** Fin de Sección Valores ***/
@@ -289,12 +271,7 @@
 /*** Sección Misiones ***/
 
 .seccion-misiones {
-    height: 170px;
-    margin-bottom: 220px;
-}
-
-.misiones {
-    margin-top: 60px;
+    margin-bottom: 80px;
 }
 
 .img-icono {
@@ -828,6 +805,31 @@ ul p {
 }
 
 /* FIN DE MEDIA QUERIES PÁGINA INICIO */
+
+/* MEDIA QUERIES PÁGINA NOSOTROS */
+
+@media (max-width: 1200px) {
+    .video.articulo2 {
+        display: none;
+    }
+    
+    .articulo2 {
+        font-size: larger;
+        line-height: 35px;
+        margin-right: -300px;
+        margin-left: 150px;
+    }
+}   
+
+@media (max-width: 991px) {
+    .articulo2 {
+        font-size: large;
+        line-height: 35px;
+        margin: 0px;
+    }
+}
+
+/* FIN DE MEDIA QUERIES PÁGINA NOSOTROS */
 
 /* MEDIA QUERIES PÁGINA RECURSOS */
 
