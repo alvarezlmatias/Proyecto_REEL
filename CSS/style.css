@@ -766,6 +766,15 @@ footer {
     margin-bottom: 20px;
 }
 
+.enlace-footer {
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+ul p {
+    letter-spacing: 2px;
+}
+
 /* FIN DE FOOTER */
 
 /* MEDIA QUERIES PÁGINA INICIO */
