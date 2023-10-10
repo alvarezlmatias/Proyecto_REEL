@@ -696,7 +696,6 @@ ul p {
   .articulo1 {
     font-size: larger;
     line-height: 35px;
-    margin: 0px 30px 0px 30px;
   }
 }
 @media (min-width: 992px) {
@@ -709,9 +708,11 @@ ul p {
     font-size: large !important;
   }
   .articulo1 {
-    font-size: small;
+    font-size: large;
     line-height: 35px;
     margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
   .h5 {
     font-size: 15px !important;
@@ -746,8 +747,10 @@ ul p {
     height: 250px;
   }
   .articulo-recursos {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: -40px;
+    margin-right: -40px;
+    font-size: large;
+    line-height: 35px;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
