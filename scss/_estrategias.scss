@@ -1,0 +1,97 @@
+/* PÁGINA ESTRATEGIAS */
+
+/*** Imagen de fondo de la página ***/
+
+.fondo-estrategias {
+    background-image: url(../img/Fondo4.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*** Fin de imagen de fondo de la página ***/
+
+/*** Títulos ***/
+
+.titulo-seccion {
+    text-align: center;
+    color: #7fab94;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.titulo-seccion.seccion2-estrategias {
+    margin-bottom: 30px;
+}
+
+.titulo-articulo-estrategias {
+    text-align: center;
+    color: #7fab94;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+/*** Fin de Títulos ***/
+
+/*** Artículos ***/
+
+.articulo-estrategias {
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 30px;
+    border-bottom: dashed;
+    border-color: #7EAA92;
+}
+
+/*** Fin de Artículos ***/
+
+/*** Imágenes ***/
+
+.imagen-estrategias {
+    align-items: center;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+/*** Fin de Imágenes ***/
+
+/*** Botón y texto Leer más ***/
+
+.plus-read {
+    margin-right: 10px;
+}
+
+.leer-mas {
+    text-decoration: none !important;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #76aa8f;
+    text-indent: 5px;
+}
+
+.leer-mas:hover {
+    color: #9ED2BE !important;
+}
+
+/*** Fin de Botón y texto Leer más ***/
+
+/*** Segunda sección ***/
+
+.seccion1-estrategias {
+    margin-top: 80px;
+}
+
+.seccion2-estrategias {
+    margin-bottom: 100px;
+}
+
+/*** Fin de Segunda sección ***/
+
+/* FIN DE PÁGINA ESTRATEGIAS */

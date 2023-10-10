@@ -1,0 +1,54 @@
+/* CUESTIONES GENERALES*/
+
+/*** Márgenes y paddings ***/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*** Fin de Márgenes y paddings ***/
+
+/*** Títulos ***/
+
+.titulo-seccion {
+    color: #4a8064 !important;
+    text-align: center;
+    font-size: 28px !important;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*** Fin de Títulos ***/
+
+/*** Subtítulos ***/
+
+.subtitulo-seccion {
+    color: #4a8064;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*** Fin de subtítulos ***/
+
+/*** Botones ***/
+
+.boton {
+    background-color: #76aa8f;
+    border-radius: 30px;
+    color:#ffffff;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    max-width: fit-content;    
+}
+
+.boton:hover {
+    background: #9ED2BE !important;
+}
+
+/*** Fin de botones ***/
+
+/* FIN DE CUESTIONES GENERALES */

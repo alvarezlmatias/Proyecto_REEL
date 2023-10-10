@@ -1,0 +1,29 @@
+/* ELEMENTOS COMUNES DEL MAIN */
+
+/*** Banner ***/
+
+.banner {
+    width: 100%;
+    margin-top: 30px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #C8E4B2;
+    border-width: 3px;
+}
+
+/*** Fin de Banner ***/
+
+/*** Videos embebidos ***/
+
+.video {
+    width: 560px;
+    height: 360px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+}
+
+/*** Fin de Videos embebidos ***/
+
+/* FIN DE ELEMENTOS COMUNES DEL MAIN */

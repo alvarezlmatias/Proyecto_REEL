@@ -1,0 +1,90 @@
+/* PÁGINA NOSOTROS */
+
+/*** Imagen de fondo de la página ***/
+
+.fondo-nosotros {
+    background-image: url(../img/Fondo2.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*** Fin de imagen de fondo de la página ***/
+
+/*** Sección principal ***/
+
+.seccion-principal2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.articulo2 {
+    margin-right: 40px;
+    margin-top: 40px;
+    text-align: justify;
+    line-height: 25px;
+    border-bottom: dashed;
+    border-color: #7EAA92;
+}
+
+.video.articulo2 {
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+/*** Fin de Sección principal ***/
+
+/*** Sección Valores ***/
+
+.valores {
+    margin-bottom: 50px;
+}
+
+.valores, .misiones {
+    display: grid;
+    place-items: center;
+}
+
+/*** Fin de Sección Valores ***/
+
+/*** Sección Misiones ***/
+
+.seccion-misiones {
+    margin-bottom: 80px;
+}
+
+.img-icono {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 80px;
+}
+
+.img-icono:hover {
+    animation:wobble-horizontal-top .8s linear both
+} 
+
+@keyframes wobble-horizontal-top {
+    0%,100%{transform:translateX(0);transform-origin:50% 50%}
+    15%{transform:translateX(-30px) rotate(6deg)}
+    30%{transform:translateX(15px) rotate(-6deg)}
+    45%{transform:translateX(-15px) rotate(3.6deg)}
+    60%{transform:translateX(9px) rotate(-2.4deg)}
+    75%{transform:translateX(-6px) rotate(1.2deg)}
+}
+
+/*** Fin de Sección Misiones ***/
+
+/*** Texto debajo de los íconos ***/
+
+.texto-icono {
+    color: #6bb0a4;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;   
+    margin-top: 20px;
+}
+
+/*** Fin de Texto debajo de los íconos ***/
+
+/* FIN DE PÁGINA NOSOTROS */

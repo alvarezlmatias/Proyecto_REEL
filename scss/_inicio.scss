@@ -1,0 +1,88 @@
+/* PÁGINA INICIO */
+
+/*** Carrusel ***/
+
+.carousel-inner, .carousel-item {
+    margin: 10px 0px 10px 0px;
+    height: 500px; 
+}
+
+.carousel-control-prev, .carousel-control-next {
+    margin-top: 350px;
+}
+
+.carousel-caption {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.carousel-item h5, .leyenda-slider {
+    margin-right: 600px;
+    margin-left: 40px;
+    color: #5ba6a6;
+}
+
+/*** Fin de Carrusel ***/
+
+/*** Artículo principal ***/
+
+.seccion-principal {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.titulo-articulo {
+    text-align: center;
+    color: #7fab94;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.articulo1 {
+    text-align: justify;
+    line-height: 25px;
+    margin-left: 30px;
+}
+
+/*** Fin de Artículo principal ***/
+
+/*** Secciones secundarias ***/
+
+.elemento-seccion {
+    display: grid;
+    place-items: center;
+}
+
+.enlace-titulo {
+    text-decoration: none;
+    color: #7fab94;
+}
+
+.enlace-titulo:hover {
+    color: #9ED2BE;
+}
+
+.imgseccion:hover {
+    filter: opacity(50%);
+    animation:shake-horizontal 0.8s 
+    linear both
+} 
+    
+@keyframes shake-horizontal {
+    0%,100%{transform:translateX(0)}
+    10%,30%,50%,70%{transform:translateX(-10px)}
+    20%,40%,60%{transform:translateX(10px)}
+    80%{transform:translateX(8px)}
+    90%{transform:translateX(-8px)}
+}
+
+.badge.inicio {
+    margin-bottom: 150px !important;
+    margin-left: 250px !important;
+}
+
+/*** Fin de Secciones secundarias ***/
+
+/* FIN DE PÁGINA INICIO */

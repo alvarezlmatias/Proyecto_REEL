@@ -107,7 +107,33 @@
 
 /*** Fin de Barra de navegación ***/
 /* FIN DE HEADER */
-/* PÁGINA PRINCIPAL */
+/* FOOTER */
+footer {
+  background-color: #80a993;
+  margin-top: 50px;
+  border-top-style: solid;
+  border-top-color: #C8E4B2;
+  border-width: 7px;
+}
+
+.logo-footer {
+  align-items: center;
+  justify-content: center;
+  margin-left: -5px;
+  margin-bottom: 20px;
+}
+
+.enlace-footer {
+  list-style-type: none;
+  letter-spacing: 2px;
+}
+
+ul p {
+  letter-spacing: 2px;
+}
+
+/* FIN DE FOOTER */
+/* PÁGINA INICIO */
 /*** Carrusel ***/
 .carousel-inner, .carousel-item {
   margin: 10px 0px 10px 0px;
@@ -195,11 +221,11 @@
 }
 
 /*** Fin de Secciones secundarias ***/
-/* FIN DE PÁGINA PRINCIPAL */
+/* FIN DE PÁGINA INICIO */
 /* PÁGINA NOSOTROS */
 /*** Imagen de fondo de la página ***/
 .fondo-nosotros {
-  background-image: url(../img/Fondo2.webp);
+  background-image: url(../img/Fondo2.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -243,18 +269,11 @@
   margin-bottom: 80px;
 }
 
-.titulo-seccion.misiones {
-  color: #a7a212 !important;
-}
 .img-icono {
   border-style: dotted;
   border-width: 5px;
   border-color: #89c4a6;
   border-radius: 80px;
-}
-
-.img-icono.misiones {
-  border-color:#d2cc0f;
 }
 
 .img-icono:hover {
@@ -292,9 +311,6 @@
   margin-top: 20px;
 }
 
-.texto-icono.misiones {
-  color: #bdb70d;
-}
 /*** Fin de Texto debajo de los íconos ***/
 /* FIN DE PÁGINA NOSOTROS */
 /* PÁGINA RECURSOS */
@@ -306,7 +322,7 @@
 /*** Fin de Banner ***/
 /*** Imagen de fondo de la página ***/
 .fondo-recursos {
-  background-image: url(../img/Fondo3.webp);
+  background-image: url(../img/Fondo3.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -398,7 +414,7 @@
 /* PÁGINA ESTRATEGIAS */
 /*** Imagen de fondo de la página ***/
 .fondo-estrategias {
-  background-image: url(../img/Fondo4.webp);
+  background-image: url(../img/Fondo4.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -482,7 +498,7 @@
 /* PÁGINA CONTACTO */
 /*** Imagen de fondo de la página ***/
 .fondo-contacto {
-  background-image: url(../img/Fondo5.webp);
+  background-image: url(../img/Fondo5.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -662,32 +678,6 @@ button:hover {
 
 /*** Fin de Formulario ***/
 /* FIN DE PÁGINA CONTACTO */
-/* FOOTER */
-footer {
-  background-color: #80a993;
-  margin-top: 50px;
-  border-top-style: solid;
-  border-top-color: #C8E4B2;
-  border-width: 7px;
-}
-
-.logo-footer {
-  align-items: center;
-  justify-content: center;
-  margin-left: -5px;
-  margin-bottom: 20px;
-}
-
-.enlace-footer {
-  list-style-type: none;
-  letter-spacing: 2px;
-}
-
-ul p {
-  letter-spacing: 2px;
-}
-
-/* FIN DE FOOTER */
 /* MEDIA QUERIES PÁGINA INICIO */
 @media (max-width: 1206px) {
   .carousel.slide {
@@ -706,6 +696,7 @@ ul p {
   .articulo1 {
     font-size: larger;
     line-height: 35px;
+    margin: 0px 30px 0px 30px;
   }
 }
 @media (min-width: 992px) {
@@ -718,11 +709,9 @@ ul p {
     font-size: large !important;
   }
   .articulo1 {
-    font-size: large;
+    font-size: small;
     line-height: 35px;
     margin-top: -30px;
-    margin-left: -10px;
-    margin-right: -10px;
   }
   .h5 {
     font-size: 15px !important;
@@ -751,16 +740,14 @@ ul p {
 /* FIN DE MEDIA QUERIES PÁGINA NOSOTROS */
 /* MEDIA QUERIES PÁGINA RECURSOS */
 /*** Tablet ***/
-@media (min-width: 620px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .videorecursos {
     width: 350px;
     height: 250px;
   }
   .articulo-recursos {
-    margin-left: -70px;
-    margin-right: -70px;
-    font-size: large;
-    line-height: 35px;
+    margin-left: -50px;
+    margin-right: -50px;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
@@ -770,17 +757,10 @@ ul p {
     place-items: center;
   }
 }
-
-@media (min-width: 481px) and (max-width: 619px) {
-  .videorecursos {
-    width: 350px;
-    height: 250px;
-  }
+@media (min-width: 481px) and (max-width: 767px) {
   .articulo-recursos {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: large;
-    line-height: 35px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
@@ -799,10 +779,9 @@ ul p {
     margin-top: 10px;
   }
   .articulo-recursos {
-    margin-left: -15px;
-    margin-right: -15px;
-    line-height: 30px;
-    font-size: medium;
+    margin-left: 0px !important;
+    margin-right: -50px !important;
+    font-size: x-large !important;
   }
   .subtitulo-seccion.rec {
     font-size: larger;

@@ -1,0 +1,205 @@
+/* PÁGINA CONTACTO */
+
+/*** Imagen de fondo de la página ***/
+
+.fondo-contacto {
+    background-image: url(../img/Fondo5.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*** Fin de imagen de fondo de la página ***/
+
+/*** Contenedores GRID ***/
+
+.contenedor {
+    width: 90%;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor-primera-seccion {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contenedor-segunda-seccion, .contenedor-tercera-seccion {
+    grid-template-columns: 1fr 2fr;
+}
+
+/*** Fin de Contenedores GRID ***/
+
+/***Subtítulos ***/
+
+.titulo-seccion.contacto, .titulo-seccion.comunidad {
+    font-size: xx-large;
+}
+
+/*** Sección Miembros ***/
+
+.titulo-seccion.comunidad {
+    margin-top: 70px;
+}
+
+.contenedor-primera-seccion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 100px;
+    margin: 30px 120px 80px 100px;
+}
+
+.bloque {
+    width: 440px;
+}
+
+.bloque.miembros {
+    width: 400px;
+}
+
+.sub-bloque {
+    background-color: #ffffff;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #89c4a6;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.foto-miembro:hover {
+    filter: opacity(50%);
+}
+
+/*** Fin de Sección Miembros ***/
+
+/*** Sección Proyectos ***/
+
+.foto-proyecto:hover {
+    filter: opacity(50%);
+}
+
+/*** Fin de Sección Proyectos ***/
+
+/*** Sección Comunidad ***/
+
+.contenedor-segunda-seccion {
+    display: grid;
+    grid-template-columns: 25% 60%;
+    gap: 30px;
+}
+
+.subtitulo-seccion.mapa {
+    margin: 20px 0px 0px 230px;
+}
+
+/*** Fin de Sección Comunidad ***/
+
+/*** Card lateral Mapa ***/
+
+.card {
+    width: 19rem;
+    margin: 190px 50px 0px -325px;
+    text-align: center;
+    font-weight: normal;
+    color: #559374;
+    margin-bottom: 20px;
+}
+
+/*** Fin de Card lateral Mapa ***/
+
+/*** Mapa ***/
+
+.mapa {
+    width: 900px;
+    height: 500px;
+    margin: -450px 0px 80px 400px;
+}
+
+/*** Fin de Mapa ***/
+
+/*** Sección Contacto ***/
+
+.contenedor-tercera-seccion {
+    display: grid;
+    grid-template-columns: 25% 65%;
+}
+
+.subtitulo-seccion.consultas {
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-left: 840px;
+}
+
+/*** Fin de Sección Contacto ***/
+
+/*** Card lateral Formulario ***/
+
+.card.dos {
+    width: 22rem;
+    text-align: center;
+    font-weight:normal;
+    color: #559374;
+    margin: 170px 0px -50px -260px;
+    align-self: center;
+}
+
+/*** Fin de Card lateral Formulario ***/
+
+/*** Formulario ***/
+
+.formulario {
+    width: 750px;
+    margin: -585px 0px 40px 520px; 
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    background-color: rgb(197,223,192);
+    border-radius: 50px;
+    padding: 25px;
+    color: #4a8064;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+}
+
+input, textarea, fieldset, select {
+    margin: 5px 0 5px 0;
+    cursor:pointer;
+    text-align: center;
+    font-size: medium !important;
+}
+
+.form-check {
+    margin-top: 10px;
+    align-content: center;
+    text-align: left;
+}
+
+button {
+    background-color: #4a8064;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    border-color: #89c4a6;
+    border-style: none;
+    font-size: large;
+    letter-spacing: 2px;
+    color: #ffff;
+    cursor:pointer;
+}
+
+.submit, .reset {
+    align-items: center;
+}
+
+button:hover {
+    background: #9ED2BE;
+}
+
+/*** Fin de Formulario ***/
+
+/* FIN DE PÁGINA CONTACTO */

@@ -1,0 +1,111 @@
+/* PÁGINA RECURSOS */
+
+/*** Banner ***/
+
+.banner-recursos {
+    margin-top: 2px;
+}
+
+/*** Fin de Banner ***/
+
+/*** Imagen de fondo de la página ***/
+
+.fondo-recursos {
+    background-image: url(../img/Fondo3.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*** Fin de imagen de fondo de la página ***/
+
+/*** Artículo principal ***/
+
+.titulo-seccion.Recursos {
+    margin-top: 60px;
+}
+
+.vid-recursos {
+    display: grid;
+    place-items: center;
+}
+
+.videorecursos {
+    width: 560px;
+    height: 360px;
+    margin-bottom: 15px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+}
+
+.articulo-recursos {
+    text-align: justify;
+    line-height: 25px;
+    padding: 15px;
+    border-bottom: dashed;
+    border-color: #7EAA92;
+    margin-bottom: 40px;
+}
+
+/*** Fin de Artículo principal ***/
+
+/*** Subtítulos secciones secundarias ***/
+
+.subtitulo-seccion.rec {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*** Fin de Subtítulos secciones secundarias ***/
+
+/*** Imágenes Secciones secundarias ***/
+
+.imgrec.uno, .imgrec.dos {
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+
+.imagen-recursos, .imagen-recursos2 {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #89c4a6;
+    border-radius: 50px;
+}
+
+/*** Fin de Imágenes Secciones secundarias ***/
+
+/*** Botones Secciones secundarias ***/
+
+.botones-recursos1, .botones-recursos2 {
+    display: grid;
+}
+
+.botones-recursos2 {
+    place-items: end;
+}
+
+.botonrec {
+    background-color: #76aa8f;
+    padding: 20px;
+    display: inline-table;
+    border-radius: 30px;
+    color:#ffffff;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.botonrec:hover {
+    background: #9ED2BE;
+}
+
+/*** Fin de Botones Secciones secundarias ***/
+
+/* FIN DE PÁGINA RECURSOS */
