@@ -243,11 +243,18 @@
   margin-bottom: 80px;
 }
 
+.titulo-seccion.misiones {
+  color: #a7a212 !important;
+}
 .img-icono {
   border-style: dotted;
   border-width: 5px;
   border-color: #89c4a6;
   border-radius: 80px;
+}
+
+.img-icono.misiones {
+  border-color:#d2cc0f;
 }
 
 .img-icono:hover {
@@ -285,6 +292,9 @@
   margin-top: 20px;
 }
 
+.texto-icono.misiones {
+  color: #bdb70d;
+}
 /*** Fin de Texto debajo de los íconos ***/
 /* FIN DE PÁGINA NOSOTROS */
 /* PÁGINA RECURSOS */
