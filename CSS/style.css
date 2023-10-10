@@ -741,14 +741,34 @@ ul p {
 /* FIN DE MEDIA QUERIES PÁGINA NOSOTROS */
 /* MEDIA QUERIES PÁGINA RECURSOS */
 /*** Tablet ***/
-@media (min-width: 481px) and (max-width: 991px) {
+@media (min-width: 620px) and (max-width: 991px) {
   .videorecursos {
     width: 350px;
     height: 250px;
   }
   .articulo-recursos {
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: -70px;
+    margin-right: -70px;
+    font-size: large;
+    line-height: 35px;
+  }
+  .subtitulo-seccion.rec {
+    font-size: larger;
+    margin-top: 20px;
+  }
+  .botones-recursos1, .botones-recursos2 {
+    place-items: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 619px) {
+  .videorecursos {
+    width: 350px;
+    height: 250px;
+  }
+  .articulo-recursos {
+    margin-left: auto;
+    margin-right: auto;
     font-size: large;
     line-height: 35px;
   }
@@ -769,8 +789,10 @@ ul p {
     margin-top: 10px;
   }
   .articulo-recursos {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    line-height: 30px;
+    font-size: medium;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
