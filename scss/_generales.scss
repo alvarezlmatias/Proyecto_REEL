@@ -9,28 +9,24 @@
 
 /*** Fin de Márgenes y paddings ***/
 
-/*** Títulos ***/
+/*** Títulos y subtítulos ***/
 
-.titulo-seccion {
+.titulo-seccion, .subtitulo-seccion {
     color: #4a8064 !important;
     text-align: center;
-    font-size: 28px !important;
     font-weight: bold;
+}
+
+.titulo-seccion {
+    font-size: 28px !important;
     margin-bottom: 30px;
 }
 
-/*** Fin de Títulos ***/
-
-/*** Subtítulos ***/
-
 .subtitulo-seccion {
-    color: #4a8064;
-    text-align: center;
     font-size: x-large;
-    font-weight: bold;
 }
 
-/*** Fin de subtítulos ***/
+/*** Fin de Títulos y subtítulos ***/
 
 /*** Botones ***/
 
@@ -42,13 +38,12 @@
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    max-width: fit-content;    
+    max-width: fit-content;
+    &:hover {
+        background: #9ED2BE !important;
+    }    
 }
 
-.boton:hover {
-    background: #9ED2BE !important;
-}
-
-/*** Fin de botones ***/
+/*** Fin de Botones ***/
 
 /* FIN DE CUESTIONES GENERALES */

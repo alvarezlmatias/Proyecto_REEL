@@ -1,46 +1,30 @@
 /* HEADER */
 
-/*** Color de fondo ***/
-
 .custom-header{
     background-color:#80a993;
     border-bottom-style: solid;
     border-bottom-color: #C8E4B2;
     border-width: 7px;
+    .logo {
+        height: 100px;
+        margin: 20px;
+        padding-left: 20px;
+    }
+    .navbar-toggler {
+        color:#ffffff !important;
+        margin-right: 30px;
+    }
+    .nav-link, .nav-link.active {
+        color:#ffffff !important;
+        letter-spacing: 2px;
+        align-items: center !important;
+        justify-content: center !important;
+        align-content: center;
+        &:hover{
+            color: #fddc09 !important;
+            border-bottom: 2px !important;
+        }
+    }
 }
-
-/*** Fin de Color de fondo ***/
-
-/*** Logo ***/
-
-.logo {
-    height: 100px;
-    margin: 20px;
-    padding-left: 20px;
-}
-
-/*** Fin de Logo ***/
-
-/*** Barra de navegación ***/
-
-.nav-link, .nav-link.active {
-    color:#ffffff !important;
-    letter-spacing: 2px;
-    align-items: center !important;
-    justify-content: center !important;
-    align-content: center;
-}
-
-.nav-link:hover{
-    color: #fddc09 !important;
-    border-bottom: 2px !important;
-}
-
-.navbar-toggler {
-    color:#ffffff !important;
-    margin-right: 30px;
-}
-
-/*** Fin de Barra de navegación ***/
 
 /* FIN DE HEADER */

@@ -7,25 +7,23 @@
 }
 
 /*** Fin de Márgenes y paddings ***/
-/*** Títulos ***/
-.titulo-seccion {
+/*** Títulos y subtítulos ***/
+.titulo-seccion, .subtitulo-seccion {
   color: #4a8064 !important;
   text-align: center;
-  font-size: 28px !important;
   font-weight: bold;
+}
+
+.titulo-seccion {
+  font-size: 28px !important;
   margin-bottom: 30px;
 }
 
-/*** Fin de Títulos ***/
-/*** Subtítulos ***/
 .subtitulo-seccion {
-  color: #4a8064;
-  text-align: center;
   font-size: x-large;
-  font-weight: bold;
 }
 
-/*** Fin de subtítulos ***/
+/*** Fin de Títulos y subtítulos ***/
 /*** Botones ***/
 .boton {
   background-color: #76aa8f;
@@ -37,12 +35,11 @@
   text-align: center;
   max-width: fit-content;
 }
-
 .boton:hover {
   background: #9ED2BE !important;
 }
 
-/*** Fin de botones ***/
+/*** Fin de Botones ***/
 /* FIN DE CUESTIONES GENERALES */
 /* ELEMENTOS COMUNES DEL MAIN */
 /*** Banner ***/
@@ -69,43 +66,33 @@
 /*** Fin de Videos embebidos ***/
 /* FIN DE ELEMENTOS COMUNES DEL MAIN */
 /* HEADER */
-/*** Color de fondo ***/
 .custom-header {
   background-color: #80a993;
   border-bottom-style: solid;
   border-bottom-color: #C8E4B2;
   border-width: 7px;
 }
-
-/*** Fin de Color de fondo ***/
-/*** Logo ***/
-.logo {
+.custom-header .logo {
   height: 100px;
   margin: 20px;
   padding-left: 20px;
 }
-
-/*** Fin de Logo ***/
-/*** Barra de navegación ***/
-.nav-link, .nav-link.active {
+.custom-header .navbar-toggler {
+  color: #ffffff !important;
+  margin-right: 30px;
+}
+.custom-header .nav-link, .custom-header .nav-link.active {
   color: #ffffff !important;
   letter-spacing: 2px;
   align-items: center !important;
   justify-content: center !important;
   align-content: center;
 }
-
-.nav-link:hover {
+.custom-header .nav-link:hover, .custom-header .nav-link.active:hover {
   color: #fddc09 !important;
   border-bottom: 2px !important;
 }
 
-.navbar-toggler {
-  color: #ffffff !important;
-  margin-right: 30px;
-}
-
-/*** Fin de Barra de navegación ***/
 /* FIN DE HEADER */
 /* FOOTER */
 footer {
@@ -115,20 +102,17 @@ footer {
   border-top-color: #C8E4B2;
   border-width: 7px;
 }
-
-.logo-footer {
+footer .logo-footer {
   align-items: center;
   justify-content: center;
   margin-left: -5px;
   margin-bottom: 20px;
 }
-
-.enlace-footer {
+footer .enlace-footer {
   list-style-type: none;
   letter-spacing: 2px;
 }
-
-ul p {
+footer ul p {
   letter-spacing: 2px;
 }
 
@@ -665,17 +649,14 @@ button:hover {
   .carousel.slide {
     display: none;
   }
-  .video.inicio {
-    display: none;
-  }
-  .badge.inicio {
-    display: none;
-  }
   .seccion-principal {
     margin-top: 80px;
     margin-bottom: 80px;
   }
-  .articulo1 {
+  .seccion-principal .video.inicio {
+    display: none;
+  }
+  .seccion-principal .articulo1 {
     font-size: larger;
     line-height: 35px;
     margin: 0px 30px 0px 30px;
@@ -723,7 +704,6 @@ button:hover {
 }
 /* FIN DE MEDIA QUERIES PÁGINA NOSOTROS */
 /* MEDIA QUERIES PÁGINA RECURSOS */
-/*** Tablet ***/
 @media (min-width: 992px) and (max-width: 1199px) {
   .articulo-recursos {
     margin-left: -50px;
@@ -797,8 +777,6 @@ button:hover {
     place-items: center;
   }
 }
-/*** Fin de Tablet ***/
-/*** Mobile ***/
 @media (min-width: 300px) and (max-width: 480px) {
   .videorecursos {
     width: 280px;
@@ -822,16 +800,13 @@ button:hover {
     font-size: small;
   }
 }
-/*** Fin de Mobile ***/
 /* FIN DE MEDIA QUERIES PÁGINA RECURSOS */
 /* MEDIA QUERIES PÁGINA ESTRATEGIAS */
-/*** Mobile ***/
 @media (min-width: 300px) and (max-width: 480px) {
   .seccion1-estrategias, .seccion2-estrategias {
     margin-bottom: 50px;
   }
 }
-/*** Fin de Mobile ***/
 /* FIN DE MEDIA QUERIES PÁGINA ESTRATEGIAS */
 /* MEDIA QUERIES PÁGINA CONTACTO */
 @media (min-width: 991px) and (max-width: 1206px) {
@@ -839,21 +814,21 @@ button:hover {
     overflow-x: hidden !important;
     width: 100%;
   }
-  .card, .card.dos {
+  .body-contacto .card, .body-contacto .card.dos {
     display: none;
   }
-  .subtitulo-seccion.mapa {
+  .body-contacto .subtitulo-seccion.mapa {
     margin: 20px 0px;
   }
-  .subtitulo-seccion.consultas {
+  .body-contacto .subtitulo-seccion.consultas {
     margin: 60px 0px 20px 0px;
   }
-  .mapa {
+  .body-contacto .mapa {
     width: auto;
     height: auto;
     margin: 0px;
   }
-  .formulario {
+  .body-contacto .formulario {
     width: 80%;
   }
 }
@@ -862,21 +837,19 @@ button:hover {
     overflow-x: hidden !important;
     width: 100% !important;
   }
-  .card, .card.dos {
+  .body-contacto .subtitulo-seccion.mapa, .body-contacto .mapa, .body-contacto .card, .body-contacto .card.dos {
     display: none;
   }
-  .subtitulo-seccion.consultas {
-    margin: 20px 0px;
-  }
-  .subtitulo-seccion.mapa, .mapa {
-    display: none;
-  }
-  .foto-miembro, .foto-proyecto {
+  .body-contacto .foto-miembro, .body-contacto .foto-proyecto {
     width: 100%;
   }
-  .formulario {
+  .body-contacto .subtitulo-seccion.consultas {
+    margin: 20px 0px;
+  }
+  .body-contacto .formulario {
     width: 95%;
   }
 }
+/* FIN DE MEDIA QUERIES PÁGINA CONTACTO */
 
 /*# sourceMappingURL=style.css.map */

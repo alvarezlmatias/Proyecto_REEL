@@ -5,23 +5,17 @@
         display: none;
     }
 
-    .video.inicio {
-        display: none;
-    }
-
-    .badge.inicio {
-        display: none;
-    }
-
     .seccion-principal {
         margin-top: 80px;
         margin-bottom: 80px;
-    }
-    
-    .articulo1 {
-        font-size: larger;
-        line-height: 35px;
-        margin: 0px 30px 0px 30px;
+        .video.inicio {
+            display: none;
+        }
+        .articulo1 {
+            font-size: larger;
+            line-height: 35px;
+            margin: 0px 30px 0px 30px;
+        }
     }
 }
 
@@ -78,7 +72,6 @@
 
 /* MEDIA QUERIES PÁGINA RECURSOS */
 
-/*** Tablet ***/
 @media (min-width: 992px) and (max-width: 1199px) {
     .articulo-recursos {
         margin-left: -50px;
@@ -167,9 +160,6 @@
         place-items: center;
     }
 }
-/*** Fin de Tablet ***/
-
-/*** Mobile ***/
 
 @media (min-width: 300px) and (max-width: 480px) {
     .videorecursos {
@@ -199,21 +189,15 @@
     }
 }
 
-/*** Fin de Mobile ***/
-
 /* FIN DE MEDIA QUERIES PÁGINA RECURSOS */
 
 /* MEDIA QUERIES PÁGINA ESTRATEGIAS */
-
-/*** Mobile ***/
 
 @media (min-width: 300px) and (max-width: 480px) {
     .seccion1-estrategias, .seccion2-estrategias {
         margin-bottom: 50px;
     }
 }
-
-/*** Fin de Mobile ***/
 
 /* FIN DE MEDIA QUERIES PÁGINA ESTRATEGIAS */
 
@@ -223,28 +207,23 @@
     .body-contacto {
         overflow-x: hidden !important;
         width: 100%;
-    }
-
-    .card, .card.dos {
-        display: none;
-    }
-
-    .subtitulo-seccion.mapa {
-        margin: 20px 0px;
-    }
-
-    .subtitulo-seccion.consultas {
-        margin: 60px 0px 20px 0px; 
-    }
-
-    .mapa {
-        width: auto;
-        height: auto;
-        margin: 0px;
-    }
-
-    .formulario {
-        width: 80%;
+        .card, .card.dos {
+            display: none;
+        }
+        .subtitulo-seccion.mapa {
+            margin: 20px 0px;
+        }
+        .subtitulo-seccion.consultas {
+            margin: 60px 0px 20px 0px; 
+        }
+        .mapa {
+            width: auto;
+            height: auto;
+            margin: 0px;
+        }
+        .formulario {
+            width: 80%;
+        }
     }
 }
 
@@ -252,25 +231,19 @@
     .body-contacto {
         overflow-x: hidden !important;
         width: 100% !important;
-    }
-
-    .card, .card.dos {
-        display: none;
-    }
-
-    .subtitulo-seccion.consultas {
-        margin: 20px 0px;
-    }
-
-    .subtitulo-seccion.mapa, .mapa {
-        display: none;
-    }
-
-    .foto-miembro, .foto-proyecto {
-        width: 100%;
-    }
-
-    .formulario {
-        width: 95%;
+        .subtitulo-seccion.mapa, .mapa, .card, .card.dos {
+            display: none;
+        }
+        .foto-miembro, .foto-proyecto {
+            width: 100%;
+        }
+        .subtitulo-seccion.consultas {
+            margin: 20px 0px;
+        }
+        .formulario {
+            width: 95%;
+        }
     }
 }
+
+/* FIN DE MEDIA QUERIES PÁGINA CONTACTO */
