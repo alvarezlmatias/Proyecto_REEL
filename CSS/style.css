@@ -505,6 +505,11 @@ ul p {
 /*** Fin de Segunda sección ***/
 /* FIN DE PÁGINA ESTRATEGIAS */
 /* PÁGINA CONTACTO */
+.body-contacto {
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
 /*** Imagen de fondo de la página ***/
 .fondo-contacto {
   background-image: url(../img/Fondo5.webp);
@@ -514,47 +519,23 @@ ul p {
 }
 
 /*** Fin de imagen de fondo de la página ***/
-/*** Contenedores GRID ***/
-.contenedor {
-  width: 90%;
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-}
-
-.contenedor-primera-seccion {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.contenedor-segunda-seccion, .contenedor-tercera-seccion {
-  grid-template-columns: 1fr 2fr;
-}
-
-/*** Fin de Contenedores GRID ***/
-/***Subtítulos ***/
+/*** Títulos ***/
 .titulo-seccion.contacto, .titulo-seccion.comunidad {
   font-size: xx-large;
 }
 
+/*** Fin de Títulos ***/
 /*** Sección Miembros ***/
 .titulo-seccion.comunidad {
   margin-top: 70px;
 }
 
-.contenedor-primera-seccion {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
-  grid-gap: 100px;
-  margin: 30px 120px 80px 100px;
+.subtitulo-seccion.comunidad {
+  font-weight: normal;
 }
 
-.bloque {
-  width: 440px;
-}
-
-.bloque.miembros {
-  width: 400px;
+.subtitulo-seccion.proyectos {
+  margin-top: 30px;
 }
 
 .sub-bloque {
@@ -562,8 +543,9 @@ ul p {
   border-style: dotted;
   border-width: 3px;
   border-color: #89c4a6;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 25px;
+  padding: 5px;
+  max-width: fit-content !important;
 }
 
 .foto-miembro:hover {
@@ -577,66 +559,51 @@ ul p {
 }
 
 /*** Fin de Sección Proyectos ***/
-/*** Sección Comunidad ***/
-.contenedor-segunda-seccion {
-  display: grid;
-  grid-template-columns: 25% 60%;
-  gap: 30px;
-}
-
+/*** Sección Mapa ***/
 .subtitulo-seccion.mapa {
-  margin: 20px 0px 0px 230px;
+  font-weight: normal;
+  margin-left: 280px;
 }
 
-/*** Fin de Sección Comunidad ***/
-/*** Card lateral Mapa ***/
 .card {
-  width: 19rem;
-  margin: 190px 50px 0px -325px;
+  width: 18rem;
+  height: 22rem;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  color: #559374;
+  margin-top: 35px;
+}
+
+.mapa {
+  margin-right: -180px;
+  margin-left: 100px;
+}
+
+/*** Fin de Sección Mapa ***/
+/*** Sección Contacto ***/
+.subtitulo-seccion.consultas {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: -370px;
+  font-weight: normal;
+}
+
+.card.dos {
+  width: 20rem;
+  height: 40rem;
   text-align: center;
   font-weight: normal;
   color: #559374;
-  margin-bottom: 20px;
-}
-
-/*** Fin de Card lateral Mapa ***/
-/*** Mapa ***/
-.mapa {
-  width: 900px;
-  height: 500px;
-  margin: -450px 0px 80px 400px;
-}
-
-/*** Fin de Mapa ***/
-/*** Sección Contacto ***/
-.contenedor-tercera-seccion {
-  display: grid;
-  grid-template-columns: 25% 65%;
-}
-
-.subtitulo-seccion.consultas {
-  text-align: center;
-  justify-items: center;
-  margin-bottom: 50px;
-  margin-left: 840px;
+  align-self: center;
+  margin-top: -20px;
+  margin-left: -30px;
+  margin-right: 80px;
 }
 
 /*** Fin de Sección Contacto ***/
-/*** Card lateral Formulario ***/
-.card.dos {
-  width: 22rem;
-  text-align: center;
-  font-weight: normal;
-  color: #559374;
-  margin: 170px 0px -50px -260px;
-  align-self: center;
-}
-
-/*** Fin de Card lateral Formulario ***/
 /*** Formulario ***/
 .formulario {
-  width: 750px;
-  margin: -585px 0px 40px 520px;
   border-style: solid;
   border-color: white;
   border-width: 5px;
@@ -648,6 +615,7 @@ ul p {
   font-weight: bolder;
   text-align: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 input, textarea, fieldset, select {
@@ -833,8 +801,8 @@ button:hover {
     margin-top: 10px;
   }
   .articulo-recursos {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -20px;
+    margin-right: -20px;
     font-size: large;
   }
   .subtitulo-seccion.rec {
