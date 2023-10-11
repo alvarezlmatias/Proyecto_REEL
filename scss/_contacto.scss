@@ -26,14 +26,6 @@
 
 /*** Sección Miembros ***/
 
-.bloque-miembros {
-    margin-left: 120px;
-}
-
-.bloque-proyectos {
-    margin-left: 40px;
-}
-
 .titulo-seccion.comunidad {
     margin-top: 70px;
 }
@@ -49,7 +41,7 @@
 
 .foto-miembro, .foto-proyecto {
     border-radius: 30px;
-    margin: 1.5px;
+    margin: 3px;
 }
 
 .foto-miembro:hover {
@@ -59,6 +51,10 @@
 /*** Fin de Sección Miembros ***/
 
 /*** Sección Proyectos ***/
+
+.foto-proyecto {
+    width: 90%;
+}
 
 .foto-proyecto:hover {
     filter: opacity(50%);

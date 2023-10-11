@@ -277,7 +277,7 @@ ul p {
 }
 
 .img-icono.misiones {
-  border-color: rgb(180, 188, 63);
+  border-color: rgb(65, 128, 44);
 }
 
 .img-icono:hover {
@@ -316,7 +316,7 @@ ul p {
 }
 
 .texto-icono.misiones {
-  color: rgb(180, 188, 63);
+  color: rgb(70, 105, 58);
 }
 
 /*** Fin de Texto debajo de los íconos ***/
@@ -526,14 +526,6 @@ ul p {
 
 /*** Fin de Títulos ***/
 /*** Sección Miembros ***/
-.bloque-miembros {
-  margin-left: 120px;
-}
-
-.bloque-proyectos {
-  margin-left: 40px;
-}
-
 .titulo-seccion.comunidad {
   margin-top: 70px;
 }
@@ -549,7 +541,7 @@ ul p {
 
 .foto-miembro, .foto-proyecto {
   border-radius: 30px;
-  margin: 1.5px;
+  margin: 3px;
 }
 
 .foto-miembro:hover {
@@ -558,6 +550,10 @@ ul p {
 
 /*** Fin de Sección Miembros ***/
 /*** Sección Proyectos ***/
+.foto-proyecto {
+  width: 90%;
+}
+
 .foto-proyecto:hover {
   filter: opacity(50%);
 }
@@ -843,13 +839,6 @@ button:hover {
     overflow-x: hidden !important;
     width: 100%;
   }
-  .bloque-miembros {
-    margin-left: 50px !important;
-    margin-right: 50px !important;
-  }
-  .bloque-proyectos {
-    margin-left: 160px !important;
-  }
   .card, .card.dos {
     display: none;
   }
@@ -868,7 +857,7 @@ button:hover {
     width: 80%;
   }
 }
-@media (min-width: 300px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 990px) {
   .body-contacto {
     overflow-x: hidden !important;
     width: 100% !important;
@@ -882,16 +871,11 @@ button:hover {
   .subtitulo-seccion.mapa, .mapa {
     display: none;
   }
-  .bloque-miembros, .bloque-proyectos {
-    width: 90%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
   .foto-miembro, .foto-proyecto {
-    width: 30% !important;
+    width: 100%;
   }
   .formulario {
-    width: 80%;
+    width: 95%;
   }
 }
 

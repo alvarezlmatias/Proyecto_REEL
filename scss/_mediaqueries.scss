@@ -225,15 +225,6 @@
         width: 100%;
     }
 
-    .bloque-miembros {
-        margin-left: 50px !important;
-        margin-right: 50px !important;
-    }
-
-    .bloque-proyectos {
-        margin-left: 160px !important;
-    }
-
     .card, .card.dos {
         display: none;
     }
@@ -257,7 +248,7 @@
     }
 }
 
-@media (min-width: 300px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 990px) {
     .body-contacto {
         overflow-x: hidden !important;
         width: 100% !important;
@@ -275,17 +266,11 @@
         display: none;
     }
 
-    .bloque-miembros, .bloque-proyectos {
-        width: 90%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
     .foto-miembro, .foto-proyecto {
-        width: 30% !important;
+        width: 100%;
     }
 
     .formulario {
-        width: 80%;
+        width: 95%;
     }
 }
