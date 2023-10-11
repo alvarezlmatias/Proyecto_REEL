@@ -225,7 +225,7 @@ ul p {
 /* PÁGINA NOSOTROS */
 /*** Imagen de fondo de la página ***/
 .fondo-nosotros {
-  background-image: url(../img/Fondo2.png);
+  background-image: url(../img/Fondo2.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -276,6 +276,10 @@ ul p {
   border-radius: 80px;
 }
 
+.img-icono.misiones {
+  border-color: rgb(180, 188, 63);
+}
+
 .img-icono:hover {
   animation: wobble-horizontal-top 0.8s linear both;
 }
@@ -311,6 +315,10 @@ ul p {
   margin-top: 20px;
 }
 
+.texto-icono.misiones {
+  color: rgb(180, 188, 63);
+}
+
 /*** Fin de Texto debajo de los íconos ***/
 /* FIN DE PÁGINA NOSOTROS */
 /* PÁGINA RECURSOS */
@@ -322,7 +330,7 @@ ul p {
 /*** Fin de Banner ***/
 /*** Imagen de fondo de la página ***/
 .fondo-recursos {
-  background-image: url(../img/Fondo3.png);
+  background-image: url(../img/Fondo3.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -350,8 +358,9 @@ ul p {
 }
 
 .articulo-recursos {
+  font-size: larger;
   text-align: justify;
-  line-height: 25px;
+  line-height: 40px;
   padding: 15px;
   border-bottom: dashed;
   border-color: #7EAA92;
@@ -414,7 +423,7 @@ ul p {
 /* PÁGINA ESTRATEGIAS */
 /*** Imagen de fondo de la página ***/
 .fondo-estrategias {
-  background-image: url(../img/Fondo4.png);
+  background-image: url(../img/Fondo4.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -498,7 +507,7 @@ ul p {
 /* PÁGINA CONTACTO */
 /*** Imagen de fondo de la página ***/
 .fondo-contacto {
-  background-image: url(../img/Fondo5.png);
+  background-image: url(../img/Fondo5.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -709,9 +718,11 @@ button:hover {
     font-size: large !important;
   }
   .articulo1 {
-    font-size: small;
+    font-size: large;
     line-height: 35px;
     margin-top: -30px;
+    margin-left: -20px;
+    margin-right: -20px;
   }
   .h5 {
     font-size: 15px !important;
@@ -740,14 +751,21 @@ button:hover {
 /* FIN DE MEDIA QUERIES PÁGINA NOSOTROS */
 /* MEDIA QUERIES PÁGINA RECURSOS */
 /*** Tablet ***/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .articulo-recursos {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}
+@media (min-width: 850px) and (max-width: 991px) {
   .videorecursos {
     width: 350px;
     height: 250px;
   }
   .articulo-recursos {
-    margin-left: -50px;
-    margin-right: -50px;
+    font-size: large;
+    margin-left: -80px;
+    margin-right: -80px;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
@@ -757,10 +775,46 @@ button:hover {
     place-items: center;
   }
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 849px) {
   .articulo-recursos {
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .subtitulo-seccion.rec {
+    font-size: larger;
+    margin-top: 20px;
+  }
+  .botones-recursos1, .botones-recursos2 {
+    place-items: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+  .videorecursos {
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+  }
+  .articulo-recursos {
+    margin-left: -80px;
+    margin-right: -80px;
+  }
+  .subtitulo-seccion.rec {
+    font-size: larger;
+    margin-top: 20px;
+  }
+  .botones-recursos1, .botones-recursos2 {
+    place-items: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 599px) {
+  .videorecursos {
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+  }
+  .articulo-recursos {
+    margin-left: auto;
+    margin-right: auto;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
@@ -774,14 +828,14 @@ button:hover {
 /*** Mobile ***/
 @media (min-width: 300px) and (max-width: 480px) {
   .videorecursos {
-    width: 300px;
+    width: 280px;
     height: 200px;
     margin-top: 10px;
   }
   .articulo-recursos {
-    margin-left: 0px !important;
-    margin-right: -50px !important;
-    font-size: x-large !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
   }
   .subtitulo-seccion.rec {
     font-size: larger;

@@ -38,9 +38,11 @@
     }
     
     .articulo1 {
-        font-size: small;
+        font-size: large;
         line-height: 35px;
         margin-top: -30px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 
     .h5 {
@@ -78,16 +80,23 @@
 /* MEDIA QUERIES PÁGINA RECURSOS */
 
 /*** Tablet ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .articulo-recursos {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 850px) and (max-width: 991px) {
     .videorecursos {
         width: 350px; 
         height: 250px;
     }
 
     .articulo-recursos {
-        margin-left: -50px;
-        margin-right: -50px;
+        font-size: large;
+        margin-left: -80px;
+        margin-right: -80px;
     }
 
     .subtitulo-seccion.rec {
@@ -100,10 +109,10 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 849px) {
     .articulo-recursos {
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: -40px;
+        margin-right: -40px;
     }
 
     .subtitulo-seccion.rec {
@@ -116,21 +125,64 @@
     }
 }
 
+@media (min-width: 600px) and (max-width: 767px) {
+    .videorecursos {
+        width: 400px; 
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .articulo-recursos {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+
+    .subtitulo-seccion.rec {
+        font-size: larger;
+        margin-top: 20px;
+    }
+
+    .botones-recursos1, .botones-recursos2 {
+        place-items: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 599px) {
+    .videorecursos {
+        width: 400px; 
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .articulo-recursos {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .subtitulo-seccion.rec {
+        font-size: larger;
+        margin-top: 20px;
+    }
+
+    .botones-recursos1, .botones-recursos2 {
+        place-items: center;
+    }
+}
 /*** Fin de Tablet ***/
 
 /*** Mobile ***/
 
 @media (min-width: 300px) and (max-width: 480px) {
     .videorecursos {
-        width: 300px; 
+        width: 280px; 
         height: 200px;
         margin-top: 10px;
     }
 
     .articulo-recursos {
-        margin-left: 0px !important;
-        margin-right: -50px !important;
-        font-size: x-large !important;
+        margin-left: auto;
+        margin-right:auto;
+        font-size: large;
     }
 
     .subtitulo-seccion.rec {

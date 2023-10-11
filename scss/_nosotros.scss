@@ -3,7 +3,7 @@
 /*** Imagen de fondo de la página ***/
 
 .fondo-nosotros {
-    background-image: url(../img/Fondo2.png);
+    background-image: url(../img/Fondo2.webp);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,6 +60,10 @@
     border-radius: 80px;
 }
 
+.img-icono.misiones {
+    border-color: rgb(180, 188, 63);
+}
+
 .img-icono:hover {
     animation:wobble-horizontal-top .8s linear both
 } 
@@ -83,6 +87,10 @@
     font-weight: bolder;
     text-align: center;   
     margin-top: 20px;
+}
+
+.texto-icono.misiones {
+    color:rgb(180, 188, 63);
 }
 
 /*** Fin de Texto debajo de los íconos ***/
