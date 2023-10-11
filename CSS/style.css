@@ -507,7 +507,7 @@ ul p {
 /* PÁGINA CONTACTO */
 .body-contacto {
   overflow-x: hidden !important;
-  width: 100%;
+  width: 100% !important;
 }
 
 /*** Imagen de fondo de la página ***/
@@ -520,31 +520,36 @@ ul p {
 
 /*** Fin de imagen de fondo de la página ***/
 /*** Títulos ***/
-.titulo-seccion.contacto, .titulo-seccion.comunidad {
+.titulo-seccion.comunidad, .titulo-seccion.contacto {
   font-size: xx-large;
 }
 
 /*** Fin de Títulos ***/
 /*** Sección Miembros ***/
+.bloque-miembros {
+  margin-left: 120px;
+}
+
+.bloque-proyectos {
+  margin-left: 40px;
+}
+
 .titulo-seccion.comunidad {
   margin-top: 70px;
 }
 
 .subtitulo-seccion.comunidad {
   font-weight: normal;
+  margin-bottom: 30px;
 }
 
 .subtitulo-seccion.proyectos {
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
-.sub-bloque {
-  background-color: #ffffff;
-  border-style: dotted;
-  border-width: 3px;
-  border-color: #89c4a6;
-  border-radius: 25px;
-  padding: 5px;
+.foto-miembro, .foto-proyecto {
+  border-radius: 30px;
+  margin: 1.5px;
 }
 
 .foto-miembro:hover {
@@ -561,7 +566,8 @@ ul p {
 /*** Sección Mapa ***/
 .subtitulo-seccion.mapa {
   font-weight: normal;
-  margin-left: 280px;
+  margin-left: 250px;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -571,7 +577,7 @@ ul p {
   text-align: center;
   font-weight: bold;
   color: #559374;
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 .mapa {
@@ -581,6 +587,10 @@ ul p {
 
 /*** Fin de Sección Mapa ***/
 /*** Sección Contacto ***/
+.titulo-seccion.contacto {
+  margin-top: 70px;
+}
+
 .subtitulo-seccion.consultas {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -833,11 +843,21 @@ button:hover {
     overflow-x: hidden !important;
     width: 100%;
   }
+  .bloque-miembros {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+  .bloque-proyectos {
+    margin-left: 160px !important;
+  }
   .card, .card.dos {
     display: none;
   }
-  .subtitulo-seccion.mapa, .subtitulo-seccion.consultas {
+  .subtitulo-seccion.mapa {
     margin: 20px 0px;
+  }
+  .subtitulo-seccion.consultas {
+    margin: 60px 0px 20px 0px;
   }
   .mapa {
     width: auto;
@@ -848,10 +868,10 @@ button:hover {
     width: 80%;
   }
 }
-@media (max-width: 990px) {
+@media (min-width: 300px) and (max-width: 480px) {
   .body-contacto {
     overflow-x: hidden !important;
-    width: 100%;
+    width: 100% !important;
   }
   .card, .card.dos {
     display: none;
@@ -861,6 +881,14 @@ button:hover {
   }
   .subtitulo-seccion.mapa, .mapa {
     display: none;
+  }
+  .bloque-miembros, .bloque-proyectos {
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .foto-miembro, .foto-proyecto {
+    width: 30% !important;
   }
   .formulario {
     width: 80%;

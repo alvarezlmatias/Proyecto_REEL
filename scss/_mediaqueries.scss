@@ -225,12 +225,25 @@
         width: 100%;
     }
 
+    .bloque-miembros {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
+    .bloque-proyectos {
+        margin-left: 160px !important;
+    }
+
     .card, .card.dos {
         display: none;
     }
 
-    .subtitulo-seccion.mapa, .subtitulo-seccion.consultas {
+    .subtitulo-seccion.mapa {
         margin: 20px 0px;
+    }
+
+    .subtitulo-seccion.consultas {
+        margin: 60px 0px 20px 0px; 
     }
 
     .mapa {
@@ -244,10 +257,10 @@
     }
 }
 
-@media (max-width: 990px) {
+@media (min-width: 300px) and (max-width: 480px) {
     .body-contacto {
         overflow-x: hidden !important;
-        width: 100%;
+        width: 100% !important;
     }
 
     .card, .card.dos {
@@ -260,6 +273,16 @@
 
     .subtitulo-seccion.mapa, .mapa {
         display: none;
+    }
+
+    .bloque-miembros, .bloque-proyectos {
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .foto-miembro, .foto-proyecto {
+        width: 30% !important;
     }
 
     .formulario {

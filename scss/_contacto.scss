@@ -2,7 +2,7 @@
 
 .body-contacto {
     overflow-x: hidden !important;
-    width: 100%;
+    width: 100% !important;
 }
 
 /*** Imagen de fondo de la página ***/
@@ -18,7 +18,7 @@
 
 /*** Títulos ***/
 
-.titulo-seccion.contacto, .titulo-seccion.comunidad {
+.titulo-seccion.comunidad, .titulo-seccion.contacto {
     font-size: xx-large;
 }
 
@@ -26,27 +26,31 @@
 
 /*** Sección Miembros ***/
 
+.bloque-miembros {
+    margin-left: 120px;
+}
+
+.bloque-proyectos {
+    margin-left: 40px;
+}
+
 .titulo-seccion.comunidad {
     margin-top: 70px;
 }
 
 .subtitulo-seccion.comunidad {
     font-weight: normal;
+    margin-bottom: 30px;
 }
 
 .subtitulo-seccion.proyectos {
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
-.sub-bloque {
-    background-color: #ffffff;
-    border-style: dotted;
-    border-width: 3px;
-    border-color: #89c4a6;
-    border-radius: 25px;
-    padding: 5px;
+.foto-miembro, .foto-proyecto {
+    border-radius: 30px;
+    margin: 1.5px;
 }
-
 
 .foto-miembro:hover {
     filter: opacity(50%);
@@ -66,7 +70,8 @@
 
 .subtitulo-seccion.mapa {
     font-weight: normal;
-    margin-left: 280px;
+    margin-left: 250px;
+    margin-bottom: 30px;
 }
 
 .card {
@@ -76,7 +81,7 @@
     text-align: center;
     font-weight: bold;
     color: #559374;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .mapa {
@@ -88,6 +93,9 @@
 
 /*** Sección Contacto ***/
 
+.titulo-seccion.contacto {
+    margin-top: 70px;
+}
 
 .subtitulo-seccion.consultas {
     margin-top: 50px;
