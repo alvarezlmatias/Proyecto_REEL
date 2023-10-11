@@ -545,7 +545,6 @@ ul p {
   border-color: #89c4a6;
   border-radius: 25px;
   padding: 5px;
-  max-width: fit-content !important;
 }
 
 .foto-miembro:hover {
@@ -827,35 +826,45 @@ button:hover {
   }
 }
 /*** Fin de Mobile ***/
-/* FIN DE MEDIA QUERIES PÁGINA RECURSOS */
+/* FIN DE MEDIA QUERIES PÁGINA ESTRATEGIAS */
 /* MEDIA QUERIES PÁGINA CONTACTO */
-/*** Mobile ***/
-@media (min-width: 250px) and (max-width: 600px) {
-  .bloque-miembros, .bloque, .mapa, .formulario {
-    grid-column: span 2;
+@media (min-width: 991px) and (max-width: 1206px) {
+  .body-contacto {
+    overflow-x: hidden !important;
+    width: 100%;
   }
   .card, .card.dos {
     display: none;
   }
-  .subtitulo-seccion.contacto {
-    margin-top: 50px;
-  }
-  .subtitulo-seccion.mapa {
-    margin-left: 50px;
-    margin-top: 50px;
+  .subtitulo-seccion.mapa, .subtitulo-seccion.consultas {
+    margin: 20px 0px;
   }
   .mapa {
-    margin-left: 40px;
-  }
-  .subtitulo-seccion.consultas {
-    margin-left: 430px;
+    width: auto;
+    height: auto;
+    margin: 0px;
   }
   .formulario {
-    margin-top: 20px;
-    margin-left: 110px;
+    width: 80%;
   }
 }
-/*** Fin de Mobile ***/
-/* FIN DE MEDIA QUERIES PÁGINA CONTACTO */
+@media (max-width: 990px) {
+  .body-contacto {
+    overflow-x: hidden !important;
+    width: 100%;
+  }
+  .card, .card.dos {
+    display: none;
+  }
+  .subtitulo-seccion.consultas {
+    margin: 20px 0px;
+  }
+  .subtitulo-seccion.mapa, .mapa {
+    display: none;
+  }
+  .formulario {
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
