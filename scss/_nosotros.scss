@@ -16,20 +16,23 @@
 .seccion-principal2 {
     margin-top: 80px;
     margin-bottom: 80px;
-}
-
-.articulo2 {
-    margin-right: 40px;
-    margin-top: 40px;
-    text-align: justify;
-    line-height: 25px;
-    border-bottom: dashed;
-    border-color: #7EAA92;
-}
-
-.video.articulo2 {
-    margin-top: -10px;
-    margin-left: -30px;
+    .articulo2 {
+        margin-right: 40px;
+        margin-top: 40px;
+        text-align: justify;
+        line-height: 25px;
+        border-bottom: dashed;
+        border-color: #7EAA92;
+        .titulo-articulo {
+            color: #4a8064;
+            text-align: center;
+            font-size: xx-large;
+        }
+    }
+    .video.articulo2 {
+        margin-top: -10px;
+        margin-left: -30px;
+    }
 }
 
 /*** Fin de Sección principal ***/
@@ -49,24 +52,19 @@
 
 /*** Sección Misiones ***/
 
-.seccion-misiones {
-    margin-bottom: 80px;
-}
-
 .img-icono {
     border-style: dotted;
     border-width: 5px;
     border-color: #89c4a6;
     border-radius: 80px;
+    &:hover {
+        animation:wobble-horizontal-top .8s linear both
+    } 
 }
 
 .img-icono.misiones {
     border-color: rgb(65, 128, 44);
 }
-
-.img-icono:hover {
-    animation:wobble-horizontal-top .8s linear both
-} 
 
 @keyframes wobble-horizontal-top {
     0%,100%{transform:translateX(0);transform-origin:50% 50%}

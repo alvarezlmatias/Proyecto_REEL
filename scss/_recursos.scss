@@ -28,16 +28,15 @@
 .vid-recursos {
     display: grid;
     place-items: center;
-}
-
-.videorecursos {
-    width: 560px;
-    height: 360px;
-    margin-bottom: 15px;
-    border-style: dotted;
-    border-width: 5px;
-    border-color: #89c4a6;
-    border-radius: 50px;
+    .videorecursos {
+        width: 560px;
+        height: 360px;
+        margin-bottom: 15px;
+        border-style: dotted;
+        border-width: 5px;
+        border-color: #89c4a6;
+        border-radius: 50px;
+    }
 }
 
 .articulo-recursos {
@@ -67,13 +66,12 @@
     display: grid;
     place-items: center;
     margin-top: 10px;
-}
-
-.imagen-recursos, .imagen-recursos2 {
-    border-style: dotted;
-    border-width: 5px;
-    border-color: #89c4a6;
-    border-radius: 50px;
+    .imagen-recursos, .imagen-recursos2 {
+        border-style: dotted;
+        border-width: 5px;
+        border-color: #89c4a6;
+        border-radius: 50px;
+    }
 }
 
 /*** Fin de Imágenes Secciones secundarias ***/
@@ -82,29 +80,27 @@
 
 .botones-recursos1, .botones-recursos2 {
     display: grid;
+    .botonrec {
+        background-color: #76aa8f;
+        padding: 20px;
+        display: inline-table;
+        border-radius: 30px;
+        color:#ffffff;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: 0.3px;
+        margin-bottom: 10px;
+        width: 200px;
+        &:hover {
+            background: #9ED2BE;
+        }
+    }
 }
 
 .botones-recursos2 {
     place-items: end;
-}
-
-.botonrec {
-    background-color: #76aa8f;
-    padding: 20px;
-    display: inline-table;
-    border-radius: 30px;
-    color:#ffffff;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing: 0.3px;
-    margin-bottom: 10px;
-    width: 200px;
-}
-
-.botonrec:hover {
-    background: #9ED2BE;
 }
 
 /*** Fin de Botones Secciones secundarias ***/

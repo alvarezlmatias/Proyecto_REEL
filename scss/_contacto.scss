@@ -22,13 +22,13 @@
     font-size: xx-large;
 }
 
-/*** Fin de Títulos ***/
-
-/*** Sección Miembros ***/
-
 .titulo-seccion.comunidad {
     margin-top: 70px;
 }
+
+/*** Fin de Títulos ***/
+
+/*** Secciones Miembros y Proyectos ***/
 
 .subtitulo-seccion.comunidad {
     font-weight: normal;
@@ -39,28 +39,24 @@
     margin-top: 70px;
 }
 
-.foto-miembro, .foto-proyecto {
+.foto-miembro {
     border-radius: 30px;
     margin: 3px;
+    &:hover {
+        filter: opacity(50%);
+    }
 }
-
-.foto-miembro:hover {
-    filter: opacity(50%);
-}
-
-/*** Fin de Sección Miembros ***/
-
-/*** Sección Proyectos ***/
 
 .foto-proyecto {
+    border-radius: 30px;
+    margin: 3px;
     width: 90%;
+    &:hover {
+        filter: opacity(50%);
+    }
 }
 
-.foto-proyecto:hover {
-    filter: opacity(50%);
-}
-
-/*** Fin de Sección Proyectos ***/
+/*** Fin de Secciones Miembros y Proyectos ***/
 
 /*** Sección Mapa ***/
 
@@ -129,41 +125,36 @@
     text-align: center;
     align-items: center;
     margin-bottom: 50px;
-}
-
-input, textarea, fieldset, select {
-    margin: 5px 0 5px 0;
-    cursor:pointer;
-    text-align: center;
-    font-size: medium !important;
-}
-
-.form-check {
-    margin-top: 10px;
-    align-content: center;
-    text-align: left;
-}
-
-button {
-    background-color: #4a8064;
-    border-radius: 20px;
-    width: 120px;
-    height: 40px;
-    margin-top: 15px;
-    border-color: #89c4a6;
-    border-style: none;
-    font-size: large;
-    letter-spacing: 2px;
-    color: #ffff;
-    cursor:pointer;
-}
-
-.submit, .reset {
-    align-items: center;
-}
-
-button:hover {
-    background: #9ED2BE;
+    .form-check {
+        margin-top: 10px;
+        align-content: center;
+        text-align: left;
+    }
+    input, textarea, fieldset, select {
+        margin: 5px 0 5px 0;
+        cursor:pointer;
+        text-align: center;
+        font-size: medium !important;
+    }
+    button {
+        background-color: #4a8064;
+        border-radius: 20px;
+        width: 120px;
+        height: 40px;
+        margin-top: 15px;
+        border-color: #89c4a6;
+        border-style: none;
+        font-size: large;
+        letter-spacing: 2px;
+        color: #ffff;
+        cursor: pointer;
+        .submit, .reset {
+            align-items: center;
+        }
+        &:hover {
+            background: #9ED2BE;
+        }
+    }
 }
 
 /*** Fin de Formulario ***/

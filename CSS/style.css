@@ -140,13 +140,17 @@ footer ul p {
 }
 
 /*** Fin de Carrusel ***/
-/*** Artículo principal ***/
+/*** Sección principal ***/
 .seccion-principal {
   margin-top: 80px;
   margin-bottom: 80px;
 }
-
-.titulo-articulo {
+.seccion-principal .articulo1 {
+  text-align: justify;
+  line-height: 25px;
+  margin-left: 30px;
+}
+.seccion-principal .articulo1 .titulo-articulo {
   text-align: center;
   color: #7fab94;
   font-size: x-large;
@@ -155,31 +159,26 @@ footer ul p {
   margin-bottom: 20px;
 }
 
-.articulo1 {
-  text-align: justify;
-  line-height: 25px;
-  margin-left: 30px;
-}
-
-/*** Fin de Artículo principal ***/
+/*** Fin de Sección principal ***/
 /*** Secciones secundarias ***/
 .elemento-seccion {
   display: grid;
   place-items: center;
 }
-
-.enlace-titulo {
+.elemento-seccion .imgseccion:hover {
+  filter: opacity(50%);
+  animation: shake-horizontal 0.8s linear both;
+}
+.elemento-seccion .enlace-titulo {
   text-decoration: none;
   color: #7fab94;
 }
-
-.enlace-titulo:hover {
+.elemento-seccion .enlace-titulo:hover {
   color: #9ED2BE;
 }
-
-.imgseccion:hover {
-  filter: opacity(50%);
-  animation: shake-horizontal 0.8s linear both;
+.elemento-seccion .badge.inicio {
+  margin-bottom: 150px !important;
+  margin-left: 250px !important;
 }
 
 @keyframes shake-horizontal {
@@ -199,11 +198,6 @@ footer ul p {
     transform: translateX(-8px);
   }
 }
-.badge.inicio {
-  margin-bottom: 150px !important;
-  margin-left: 250px !important;
-}
-
 /*** Fin de Secciones secundarias ***/
 /* FIN DE PÁGINA INICIO */
 /* PÁGINA NOSOTROS */
@@ -221,8 +215,7 @@ footer ul p {
   margin-top: 80px;
   margin-bottom: 80px;
 }
-
-.articulo2 {
+.seccion-principal2 .articulo2 {
   margin-right: 40px;
   margin-top: 40px;
   text-align: justify;
@@ -230,8 +223,12 @@ footer ul p {
   border-bottom: dashed;
   border-color: #7EAA92;
 }
-
-.video.articulo2 {
+.seccion-principal2 .articulo2 .titulo-articulo {
+  color: #4a8064;
+  text-align: center;
+  font-size: xx-large;
+}
+.seccion-principal2 .video.articulo2 {
   margin-top: -10px;
   margin-left: -30px;
 }
@@ -249,23 +246,18 @@ footer ul p {
 
 /*** Fin de Sección Valores ***/
 /*** Sección Misiones ***/
-.seccion-misiones {
-  margin-bottom: 80px;
-}
-
 .img-icono {
   border-style: dotted;
   border-width: 5px;
   border-color: #89c4a6;
   border-radius: 80px;
 }
+.img-icono:hover {
+  animation: wobble-horizontal-top 0.8s linear both;
+}
 
 .img-icono.misiones {
   border-color: rgb(65, 128, 44);
-}
-
-.img-icono:hover {
-  animation: wobble-horizontal-top 0.8s linear both;
 }
 
 @keyframes wobble-horizontal-top {
@@ -330,8 +322,7 @@ footer ul p {
   display: grid;
   place-items: center;
 }
-
-.videorecursos {
+.vid-recursos .videorecursos {
   width: 560px;
   height: 360px;
   margin-bottom: 15px;
@@ -365,8 +356,7 @@ footer ul p {
   place-items: center;
   margin-top: 10px;
 }
-
-.imagen-recursos, .imagen-recursos2 {
+.imgrec.uno .imagen-recursos, .imgrec.uno .imagen-recursos2, .imgrec.dos .imagen-recursos, .imgrec.dos .imagen-recursos2 {
   border-style: dotted;
   border-width: 5px;
   border-color: #89c4a6;
@@ -378,12 +368,7 @@ footer ul p {
 .botones-recursos1, .botones-recursos2 {
   display: grid;
 }
-
-.botones-recursos2 {
-  place-items: end;
-}
-
-.botonrec {
+.botones-recursos1 .botonrec, .botones-recursos2 .botonrec {
   background-color: #76aa8f;
   padding: 20px;
   display: inline-table;
@@ -397,9 +382,12 @@ footer ul p {
   margin-bottom: 10px;
   width: 200px;
 }
-
-.botonrec:hover {
+.botones-recursos1 .botonrec:hover, .botones-recursos2 .botonrec:hover {
   background: #9ED2BE;
+}
+
+.botones-recursos2 {
+  place-items: end;
 }
 
 /*** Fin de Botones Secciones secundarias ***/
@@ -427,15 +415,6 @@ footer ul p {
   margin-bottom: 30px;
 }
 
-.titulo-articulo-estrategias {
-  text-align: center;
-  color: #7fab94;
-  font-size: large;
-  font-weight: bolder;
-  margin-top: 30px;
-  margin-bottom: 25px;
-}
-
 /*** Fin de Títulos ***/
 /*** Artículos ***/
 .articulo-estrategias {
@@ -444,6 +423,14 @@ footer ul p {
   margin-bottom: 30px;
   border-bottom: dashed;
   border-color: #7EAA92;
+}
+.articulo-estrategias .titulo-articulo-estrategias {
+  text-align: center;
+  color: #7fab94;
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 /*** Fin de Artículos ***/
@@ -459,10 +446,6 @@ footer ul p {
 
 /*** Fin de Imágenes ***/
 /*** Botón y texto Leer más ***/
-.plus-read {
-  margin-right: 10px;
-}
-
 .leer-mas {
   text-decoration: none !important;
   font-size: large;
@@ -471,9 +454,11 @@ footer ul p {
   color: #76aa8f;
   text-indent: 5px;
 }
-
 .leer-mas:hover {
   color: #9ED2BE !important;
+}
+.leer-mas .plus-read {
+  margin-right: 10px;
 }
 
 /*** Fin de Botón y texto Leer más ***/
@@ -508,12 +493,12 @@ footer ul p {
   font-size: xx-large;
 }
 
-/*** Fin de Títulos ***/
-/*** Sección Miembros ***/
 .titulo-seccion.comunidad {
   margin-top: 70px;
 }
 
+/*** Fin de Títulos ***/
+/*** Secciones Miembros y Proyectos ***/
 .subtitulo-seccion.comunidad {
   font-weight: normal;
   margin-bottom: 30px;
@@ -523,26 +508,24 @@ footer ul p {
   margin-top: 70px;
 }
 
-.foto-miembro, .foto-proyecto {
+.foto-miembro {
   border-radius: 30px;
   margin: 3px;
 }
-
 .foto-miembro:hover {
   filter: opacity(50%);
 }
 
-/*** Fin de Sección Miembros ***/
-/*** Sección Proyectos ***/
 .foto-proyecto {
+  border-radius: 30px;
+  margin: 3px;
   width: 90%;
 }
-
 .foto-proyecto:hover {
   filter: opacity(50%);
 }
 
-/*** Fin de Sección Proyectos ***/
+/*** Fin de Secciones Miembros y Proyectos ***/
 /*** Sección Mapa ***/
 .subtitulo-seccion.mapa {
   font-weight: normal;
@@ -606,21 +589,18 @@ footer ul p {
   align-items: center;
   margin-bottom: 50px;
 }
-
-input, textarea, fieldset, select {
+.formulario .form-check {
+  margin-top: 10px;
+  align-content: center;
+  text-align: left;
+}
+.formulario input, .formulario textarea, .formulario fieldset, .formulario select {
   margin: 5px 0 5px 0;
   cursor: pointer;
   text-align: center;
   font-size: medium !important;
 }
-
-.form-check {
-  margin-top: 10px;
-  align-content: center;
-  text-align: left;
-}
-
-button {
+.formulario button {
   background-color: #4a8064;
   border-radius: 20px;
   width: 120px;
@@ -633,12 +613,10 @@ button {
   color: white;
   cursor: pointer;
 }
-
-.submit, .reset {
+.formulario button .submit, .formulario button .reset {
   align-items: center;
 }
-
-button:hover {
+.formulario button:hover {
   background: #9ED2BE;
 }
 

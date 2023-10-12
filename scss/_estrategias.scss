@@ -25,15 +25,6 @@
     margin-bottom: 30px;
 }
 
-.titulo-articulo-estrategias {
-    text-align: center;
-    color: #7fab94;
-    font-size: large;
-    font-weight: bolder;
-    margin-top: 30px;
-    margin-bottom: 25px;
-}
-
 /*** Fin de Títulos ***/
 
 /*** Artículos ***/
@@ -44,6 +35,14 @@
     margin-bottom: 30px;
     border-bottom: dashed;
     border-color: #7EAA92;
+    .titulo-articulo-estrategias {
+        text-align: center;
+        color: #7fab94;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
 }
 
 /*** Fin de Artículos ***/
@@ -63,10 +62,6 @@
 
 /*** Botón y texto Leer más ***/
 
-.plus-read {
-    margin-right: 10px;
-}
-
 .leer-mas {
     text-decoration: none !important;
     font-size: large;
@@ -74,10 +69,12 @@
     text-align: center;
     color: #76aa8f;
     text-indent: 5px;
-}
-
-.leer-mas:hover {
-    color: #9ED2BE !important;
+    &:hover {
+        color: #9ED2BE !important;
+    }
+    .plus-read {
+        margin-right: 10px;
+    }
 }
 
 /*** Fin de Botón y texto Leer más ***/
