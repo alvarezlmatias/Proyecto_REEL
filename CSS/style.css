@@ -646,18 +646,18 @@ footer ul p {
   }
 }
 @media (max-width: 991px) {
-  .titulo-articulo, .titulo-seccion {
-    font-size: large !important;
+  .titulo-articulo, .titulo-seccion.rel, .titulo-seccion.rel2 {
+    font-size: larger !important;
   }
   .articulo1 {
     font-size: large;
     line-height: 35px;
     margin-top: -30px;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
   .h5 {
-    font-size: 15px !important;
+    font-size: 20px !important;
   }
 }
 /* FIN DE MEDIA QUERIES PÁGINA INICIO */
@@ -674,10 +674,14 @@ footer ul p {
   }
 }
 @media (max-width: 991px) {
+  .titulo-articulo.nosotros {
+    margin-bottom: 30px !important;
+    font-size: x-large !important;
+  }
   .articulo2 {
     font-size: large;
-    line-height: 35px;
-    margin: 0px;
+    line-height: 30px !important;
+    margin: 0px !important;
   }
 }
 /* FIN DE MEDIA QUERIES PÁGINA NOSOTROS */
@@ -720,14 +724,18 @@ footer ul p {
   }
 }
 @media (min-width: 600px) and (max-width: 767px) {
+  .titulo-seccion.Recursos {
+    font-size: larger !important;
+  }
   .videorecursos {
-    width: 400px;
-    height: 250px;
+    width: 400px !important;
+    height: 250px !important;
     margin-top: 10px;
   }
   .articulo-recursos {
-    margin-left: -80px;
-    margin-right: -80px;
+    margin-left: -80px !important;
+    margin-right: -80px !important;
+    font-size: medium !important;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
@@ -738,14 +746,18 @@ footer ul p {
   }
 }
 @media (min-width: 481px) and (max-width: 599px) {
+  .titulo-seccion.Recursos {
+    font-size: larger !important;
+  }
   .videorecursos {
-    width: 400px;
-    height: 250px;
+    width: 400px !important;
+    height: 250px !important;
     margin-top: 10px;
   }
   .articulo-recursos {
     margin-left: auto;
     margin-right: auto;
+    font-size: medium !important;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
@@ -756,15 +768,18 @@ footer ul p {
   }
 }
 @media (min-width: 300px) and (max-width: 480px) {
+  .titulo-seccion.Recursos {
+    font-size: larger !important;
+  }
   .videorecursos {
-    width: 280px;
-    height: 200px;
+    width: 280px !important;
+    height: 200px !important;
     margin-top: 10px;
   }
   .articulo-recursos {
-    margin-left: -20px;
-    margin-right: -20px;
-    font-size: large;
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    font-size: medium !important;
   }
   .subtitulo-seccion.rec {
     font-size: larger;
@@ -774,8 +789,8 @@ footer ul p {
     place-items: center;
   }
   .botonrec {
-    width: 150px;
-    font-size: small;
+    width: 150px !important;
+    font-size: small !important;
   }
 }
 /* FIN DE MEDIA QUERIES PÁGINA RECURSOS */
