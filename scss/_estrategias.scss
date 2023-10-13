@@ -4,9 +4,7 @@
 
 .fondo-estrategias {
     background-image: url(../img/Fondo4.webp);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend %imagen-fondo;
 }
 
 /*** Fin de imagen de fondo de la página ***/
@@ -14,9 +12,7 @@
 /*** Títulos ***/
 
 .titulo-seccion {
-    text-align: center;
-    color: $color-titulo-articulo;
-    font-size: x-large;
+    @extend %titulo-articulo;
     font-weight: bolder;
     margin-top: $margen-l;
 }
@@ -30,8 +26,7 @@
 /*** Artículos ***/
 
 .articulo-estrategias {
-    text-align: justify;
-    line-height: $margen-sxs;
+    @extend %formato-articulo;
     margin-bottom: $margen-s;
     border-bottom: dashed;
     border-color: $color-borde-inferior;
@@ -50,10 +45,8 @@
 /*** Imágenes ***/
 
 .imagen-estrategias {
+    @extend %estilo-borde;
     align-items: center;
-    border-style: dotted;
-    border-width: $margen-xxss;
-    border-color: $color-borde-punteado;
     border-radius: $margen-l;
     margin-left: $margen-l;
 }

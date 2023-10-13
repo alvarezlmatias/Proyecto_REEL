@@ -12,9 +12,7 @@
 
 .fondo-recursos {
     background-image: url(../img/Fondo3.webp);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend %imagen-fondo;
 }
 
 /*** Fin de imagen de fondo de la página ***/
@@ -32,10 +30,8 @@
         width: 560px;
         height: 360px;
         margin-bottom: $margen-xsss;
-        border-style: dotted;
-        border-width: $margen-xxss;
-        border-color: $color-borde-punteado;
         border-radius: $margen-l;
+        @extend %estilo-borde;
     }
 }
 
@@ -67,9 +63,7 @@
     place-items: center;
     margin-top: $margen-xss;
     .imagen-recursos, .imagen-recursos2 {
-        border-style: dotted;
-        border-width: $margen-xxss;
-        border-color: $color-borde-punteado;
+        @extend %estilo-borde;
         border-radius: $margen-l;
     }
 }

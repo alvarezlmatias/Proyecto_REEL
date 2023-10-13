@@ -9,9 +9,7 @@
 
 .fondo-contacto {
     background-image: url(../img/Fondo5.webp);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend %imagen-fondo;
 }
 
 /*** Fin de imagen de fondo de la página ***/
@@ -31,15 +29,14 @@
 /*** Secciones Miembros y Proyectos ***/
 
 .subtitulo-seccion.comunidad {
-    font-weight: normal;
-    margin-bottom: $margen-s;
+    @extend %subtitulo-seccion;
 }
 
 .subtitulo-seccion.proyectos {
     margin-top: $margen-xll;
 }
 
-.foto-miembro {
+.foto-miembro, .foto-proyecto {
     border-radius: $margen-s;
     margin: $margen-xxs;
     &:hover {
@@ -48,12 +45,7 @@
 }
 
 .foto-proyecto {
-    border-radius: $margen-s;
-    margin: $margen-xxs;
     width: 90%;
-    &:hover {
-        filter: opacity(50%);
-    }
 }
 
 /*** Fin de Secciones Miembros y Proyectos ***/
@@ -61,18 +53,16 @@
 /*** Sección Mapa ***/
 
 .subtitulo-seccion.mapa {
-    font-weight: normal;
+    @extend %subtitulo-seccion;
     margin-left: 250px;
-    margin-bottom: $margen-s;
 }
 
 .card {
     width: 18rem;
     height: 22rem;
+    @extend %formato-cards;
     font-size: large;
-    text-align: center;
     font-weight: bold;
-    color: $color-texto;
     margin-top: $margen-xsss;
 }
 
@@ -99,9 +89,8 @@
 .card.dos {
     width: 20rem;
     height: 40rem;
-    text-align: center;
-    font-weight:normal;
-    color: $color-texto;
+    @extend %formato-cards;
+    font-weight: normal;
     align-self: center;
     margin-top: -20px;
     margin-left: -30px;

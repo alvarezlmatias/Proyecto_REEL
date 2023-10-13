@@ -27,16 +27,12 @@
 /*** Sección principal ***/
 
 .seccion-principal {
-    margin-top: $margen-xxl;
-    margin-bottom: $margen-xxl;
+    @extend %margen-seccion-principal;
     .articulo1 {
-        text-align: justify;
-        line-height: $margen-sxs;
+        @extend %formato-articulo;
         margin-left: $margen-s;
         .titulo-articulo {
-            text-align: center;
-            color: $color-titulo-articulo;
-            font-size: x-large;
+            @extend %titulo-articulo;
             font-weight: bold;
             margin-top: $margen-xss;
             margin-bottom: $margen-xs;

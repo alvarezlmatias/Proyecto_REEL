@@ -18,10 +18,8 @@
 .video {
     width: 560px;
     height: 360px;
-    border-style: dotted;
-    border-width: $margen-xxss;
-    border-color: $color-borde-punteado;
     border-radius: $margen-l;
+    @extend %estilo-borde; 
 }
 
 /*** Fin de Videos embebidos ***/

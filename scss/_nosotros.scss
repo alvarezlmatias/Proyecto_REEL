@@ -4,9 +4,7 @@
 
 .fondo-nosotros {
     background-image: url(../img/Fondo2.webp);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend %imagen-fondo;
 }
 
 /*** Fin de imagen de fondo de la página ***/
@@ -14,13 +12,11 @@
 /*** Sección principal ***/
 
 .seccion-principal2 {
-    margin-top: $margen-xxl;
-    margin-bottom: $margen-xxl;
+    @extend %margen-seccion-principal;
     .articulo2 {
+        @extend %formato-articulo;
         margin-right: $margen-m;
         margin-top: $margen-m;
-        text-align: justify;
-        line-height: $margen-sxs;
         border-bottom: dashed;
         border-color: $color-borde-inferior;
         .titulo-articulo {
@@ -53,9 +49,7 @@
 /*** Sección Misiones ***/
 
 .img-icono {
-    border-style: dotted;
-    border-width: $margen-xxss;
-    border-color: $color-borde-punteado;
+    @extend %estilo-borde;  
     border-radius: $margen-xxl;
     &:hover {
         animation:wobble-horizontal-top .8s linear both

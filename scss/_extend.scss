@@ -1,0 +1,61 @@
+/* IMÁGENES DE FONDO */
+
+%imagen-fondo {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FIN DE IMÁGENES DE FONDO */
+
+/* MÁRGENES SECCIONES PRINCIPALES */
+
+%margen-seccion-principal {
+    margin-top: $margen-xxl;
+    margin-bottom: $margen-xxl;
+}
+
+/* FIN DE MÁRGENES SECCIONES PRINCIPALES */
+
+/* TÍTULOS Y SUBTÍTULOS */
+
+%titulo-articulo {
+    text-align: center;
+    color: $color-titulo-articulo;
+    font-size: x-large;
+}
+
+%subtitulo-seccion {
+    font-weight: normal;
+    margin-bottom: $margen-s;
+}
+
+/* FIN DE TÍTULOS Y SUBTÍTULOS */
+
+/* ARTÍCULOS */
+
+%formato-articulo {
+    text-align: justify;
+    line-height: $margen-sxs;
+}
+
+/* FIN DE ARTÍCULOS */
+
+/* BORDES */
+
+%estilo-borde {
+    border-style: dotted;
+    border-width: $margen-xxss;
+    border-color: $color-borde-punteado;
+}
+
+/* FIN DE BORDES */
+
+/* CARDS */
+
+%formato-cards {
+    text-align: center;
+    color: $color-texto;
+}
+
+/* FIN DE CARDS */
