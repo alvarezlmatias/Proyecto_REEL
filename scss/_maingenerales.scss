@@ -4,11 +4,11 @@
 
 .banner {
     width: 100%;
-    margin-top: 30px;
+    margin-top: $margen-s;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color: #C8E4B2;
-    border-width: 3px;
+    border-color: $color-borde;
+    border-width: $margen-xxs;
 }
 
 /*** Fin de Banner ***/
@@ -19,9 +19,9 @@
     width: 560px;
     height: 360px;
     border-style: dotted;
-    border-width: 5px;
-    border-color: #89c4a6;
-    border-radius: 50px;
+    border-width: $margen-xxss;
+    border-color: $color-borde-punteado;
+    border-radius: $margen-l;
 }
 
 /*** Fin de Videos embebidos ***/

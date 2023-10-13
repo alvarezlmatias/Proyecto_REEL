@@ -1,23 +1,23 @@
 /* FOOTER */
 
 footer {
-    background-color: #80a993;
-    margin-top: 50px;
+    background-color: $color-fondo;
+    margin-top: $margen-l;
     border-top-style: solid;
-    border-top-color: #C8E4B2;
-    border-width: 7px;
+    border-top-color: $color-borde;
+    border-width: $borde-l;
     .logo-footer {
         align-items: center;
         justify-content: center;
         margin-left: -5px;
-        margin-bottom: 20px;
+        margin-bottom: $margen-xs;
     }
     .enlace-footer {
         list-style-type: none;
-        letter-spacing: 2px;
+        letter-spacing: $margen-xxxs;
     }
     ul p {
-        letter-spacing: 2px;
+        letter-spacing: $margen-xxxs;
     }
 }
 

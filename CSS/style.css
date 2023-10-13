@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/* COLORES */
+/* FIN DE COLORES */
+/* MÁRGENES Y PADDINGS */
+/* FIN DE MÁRGENES Y PADDINGS */
+/* INTERLINEADOS */
+/* FIN DE INTERLINEADOS */
+/* BORDES */
+/* FIN DE BORDES */
 /* CUESTIONES GENERALES*/
 /*** Márgenes y paddings ***/
 * {
@@ -257,7 +265,7 @@ footer ul p {
 }
 
 .img-icono.misiones {
-  border-color: rgb(65, 128, 44);
+  border-color: rgb(70, 105, 58);
 }
 
 @keyframes wobble-horizontal-top {
@@ -577,7 +585,7 @@ footer ul p {
 /*** Formulario ***/
 .formulario {
   border-style: solid;
-  border-color: white;
+  border-color: #ffffff;
   border-width: 5px;
   background-color: rgb(197, 223, 192);
   border-radius: 50px;
@@ -610,7 +618,7 @@ footer ul p {
   border-style: none;
   font-size: large;
   letter-spacing: 2px;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }
 .formulario button .submit, .formulario button .reset {

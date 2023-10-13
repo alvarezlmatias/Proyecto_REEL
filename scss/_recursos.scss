@@ -3,7 +3,7 @@
 /*** Banner ***/
 
 .banner-recursos {
-    margin-top: 2px;
+    margin-top: $margen-xxxs;
 }
 
 /*** Fin de Banner ***/
@@ -22,7 +22,7 @@
 /*** Artículo principal ***/
 
 .titulo-seccion.Recursos {
-    margin-top: 60px;
+    margin-top: $margen-xl;
 }
 
 .vid-recursos {
@@ -31,22 +31,22 @@
     .videorecursos {
         width: 560px;
         height: 360px;
-        margin-bottom: 15px;
+        margin-bottom: $margen-xsss;
         border-style: dotted;
-        border-width: 5px;
-        border-color: #89c4a6;
-        border-radius: 50px;
+        border-width: $margen-xxss;
+        border-color: $color-borde-punteado;
+        border-radius: $margen-l;
     }
 }
 
 .articulo-recursos {
     font-size: large;
     text-align: justify;
-    line-height: 40px;
-    padding: 15px;
+    line-height: $margen-m;
+    padding: $margen-xsss;
     border-bottom: dashed;
-    border-color: #7EAA92;
-    margin-bottom: 40px;
+    border-color: $color-borde-inferior;
+    margin-bottom: $margen-m;
 }
 
 /*** Fin de Artículo principal ***/
@@ -54,8 +54,8 @@
 /*** Subtítulos secciones secundarias ***/
 
 .subtitulo-seccion.rec {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: $margen-m;
+    margin-bottom: $margen-m;
 }
 
 /*** Fin de Subtítulos secciones secundarias ***/
@@ -65,12 +65,12 @@
 .imgrec.uno, .imgrec.dos {
     display: grid;
     place-items: center;
-    margin-top: 10px;
+    margin-top: $margen-xss;
     .imagen-recursos, .imagen-recursos2 {
         border-style: dotted;
-        border-width: 5px;
-        border-color: #89c4a6;
-        border-radius: 50px;
+        border-width: $margen-xxss;
+        border-color: $color-borde-punteado;
+        border-radius: $margen-l;
     }
 }
 
@@ -81,20 +81,20 @@
 .botones-recursos1, .botones-recursos2 {
     display: grid;
     .botonrec {
-        background-color: #76aa8f;
-        padding: 20px;
+        background-color: $color-fondo-botones;
+        padding: $margen-xs;
         display: inline-table;
-        border-radius: 30px;
-        color:#ffffff;
+        border-radius: $margen-s;
+        color: $color-white;
         text-align: center;
         font-size: large;
         font-weight: bold;
         text-decoration: none;
         letter-spacing: 0.3px;
-        margin-bottom: 10px;
+        margin-bottom: $margen-xss;
         width: 200px;
         &:hover {
-            background: #9ED2BE;
+            background: $color-hover-botones;
         }
     }
 }

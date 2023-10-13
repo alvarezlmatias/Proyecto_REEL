@@ -1,28 +1,28 @@
 /* HEADER */
 
 .custom-header{
-    background-color:#80a993;
+    background-color: $color-fondo;
     border-bottom-style: solid;
-    border-bottom-color: #C8E4B2;
-    border-width: 7px;
+    border-bottom-color: $color-borde;
+    border-width: $borde-l;
     .logo {
-        height: 100px;
-        margin: 20px;
-        padding-left: 20px;
+        height: $margen-xxxl;
+        margin: $margen-xs;
+        padding-left: $margen-xs;
     }
     .navbar-toggler {
-        color:#ffffff !important;
-        margin-right: 30px;
+        color: $color-white !important;
+        margin-right: $margen-s;
     }
     .nav-link, .nav-link.active {
-        color:#ffffff !important;
-        letter-spacing: 2px;
+        color: $color-white !important;
+        letter-spacing: $margen-xxxs;
         align-items: center !important;
         justify-content: center !important;
         align-content: center;
         &:hover{
-            color: #fddc09 !important;
-            border-bottom: 2px !important;
+            color: $color-hover-header !important;
+            border-bottom: $margen-xxxs !important;
         }
     }
 }

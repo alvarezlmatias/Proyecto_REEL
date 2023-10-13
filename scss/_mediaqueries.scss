@@ -6,14 +6,14 @@
     }
 
     .seccion-principal {
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: $margen-xxl;
+        margin-bottom: $margen-xxl;
         .video.inicio {
             display: none;
         }
         .articulo1 {
             font-size: larger;
-            line-height: 35px;
+            line-height: $interlineado-general;
             margin: 0px 30px 0px 30px;
         }
     }
@@ -32,14 +32,14 @@
     
     .articulo1 {
         font-size: large;
-        line-height: 35px;
+        line-height: $interlineado-general;
         margin-top: -30px;
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
 
     .h5 {
-        font-size: 20px !important;
+        font-size: $margen-xs !important;
     }
 }
 
@@ -54,7 +54,7 @@
     
     .articulo2 {
         font-size: larger;
-        line-height: 35px;
+        line-height: $interlineado-general;
         margin-right: -350px;
         margin-left: 150px;
     }
@@ -62,13 +62,13 @@
 
 @media (max-width: 991px) {
     .titulo-articulo.nosotros {
-        margin-bottom: 30px !important;
+        margin-bottom: $margen-s !important;
         font-size: x-large !important;
     }
     
     .articulo2 {
         font-size: large;
-        line-height: 30px !important;
+        line-height: $margen-s !important;
         margin: 0px !important;
     }
 }
@@ -98,7 +98,7 @@
 
     .subtitulo-seccion.rec {
         font-size: larger;
-        margin-top: 20px;
+        margin-top: $margen-xs;
     }
 
     .botones-recursos1, .botones-recursos2 {
@@ -114,7 +114,7 @@
 
     .subtitulo-seccion.rec {
         font-size: larger;
-        margin-top: 20px;
+        margin-top: $margen-xs;
     }
 
     .botones-recursos1, .botones-recursos2 {
@@ -130,7 +130,7 @@
     .videorecursos {
         width: 400px !important; 
         height: 250px !important;
-        margin-top: 10px;
+        margin-top: $margen-xss;
     }
 
     .articulo-recursos {
@@ -141,7 +141,7 @@
 
     .subtitulo-seccion.rec {
         font-size: larger;
-        margin-top: 20px;
+        margin-top: $margen-xs;
     }
 
     .botones-recursos1, .botones-recursos2 {
@@ -157,7 +157,7 @@
     .videorecursos {
         width: 400px !important; 
         height: 250px !important;
-        margin-top: 10px;
+        margin-top: $margen-xss;
     }
 
     .articulo-recursos {
@@ -168,7 +168,7 @@
 
     .subtitulo-seccion.rec {
         font-size: larger;
-        margin-top: 20px;
+        margin-top: $margen-xs;
     }
 
     .botones-recursos1, .botones-recursos2 {
@@ -184,7 +184,7 @@
     .videorecursos {
         width: 280px !important; 
         height: 200px !important;
-        margin-top: 10px;
+        margin-top: $margen-xss;
     }
 
     .articulo-recursos {
@@ -195,7 +195,7 @@
 
     .subtitulo-seccion.rec {
         font-size: larger;
-        margin-top: 20px;
+        margin-top: $margen-xs;
     }
 
     .botones-recursos1, .botones-recursos2 {
@@ -214,7 +214,7 @@
 
 @media (min-width: 300px) and (max-width: 480px) {
     .seccion1-estrategias, .seccion2-estrategias {
-        margin-bottom: 50px;
+        margin-bottom: $margen-l;
     }
 }
 

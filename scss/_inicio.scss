@@ -18,8 +18,8 @@
 
 .carousel-item h5, .leyenda-slider {
     margin-right: 600px;
-    margin-left: 40px;
-    color: #5ba6a6;
+    margin-left: $margen-m;
+    color: $color-texto-slider;
 }
 
 /*** Fin de Carrusel ***/
@@ -27,19 +27,19 @@
 /*** Sección principal ***/
 
 .seccion-principal {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: $margen-xxl;
+    margin-bottom: $margen-xxl;
     .articulo1 {
         text-align: justify;
-        line-height: 25px;
-        margin-left: 30px;
+        line-height: $margen-sxs;
+        margin-left: $margen-s;
         .titulo-articulo {
             text-align: center;
-            color: #7fab94;
+            color: $color-titulo-articulo;
             font-size: x-large;
             font-weight: bold;
-            margin-top: 10px;
-            margin-bottom: 20px;
+            margin-top: $margen-xss;
+            margin-bottom: $margen-xs;
         }
     }
 }
@@ -60,9 +60,9 @@
     }
     .enlace-titulo {
         text-decoration: none;
-        color: #7fab94;
+        color: $color-titulo-articulo;
         &:hover {
-            color: #9ED2BE;
+            color: $color-hover-botones;
         }
     }
     .badge.inicio {

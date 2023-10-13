@@ -12,14 +12,14 @@
 /*** Títulos y subtítulos ***/
 
 .titulo-seccion, .subtitulo-seccion {
-    color: #4a8064 !important;
+    color: $color-titulo-seccion !important;
     text-align: center;
     font-weight: bold;
 }
 
 .titulo-seccion {
     font-size: 28px !important;
-    margin-bottom: 30px;
+    margin-bottom: $margen-s;
 }
 
 .subtitulo-seccion {
@@ -31,16 +31,16 @@
 /*** Botones ***/
 
 .boton {
-    background-color: #76aa8f;
-    border-radius: 30px;
-    color:#ffffff;
-    padding: 15px;
+    background-color: $color-fondo-botones;
+    border-radius: $margen-s;
+    color: $color-white;
+    padding: $margen-xsss;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
     max-width: fit-content;
     &:hover {
-        background: #9ED2BE !important;
+        background: $color-hover-botones !important;
     }    
 }
 

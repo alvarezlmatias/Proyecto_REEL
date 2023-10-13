@@ -14,17 +14,17 @@
 /*** Sección principal ***/
 
 .seccion-principal2 {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: $margen-xxl;
+    margin-bottom: $margen-xxl;
     .articulo2 {
-        margin-right: 40px;
-        margin-top: 40px;
+        margin-right: $margen-m;
+        margin-top: $margen-m;
         text-align: justify;
-        line-height: 25px;
+        line-height: $margen-sxs;
         border-bottom: dashed;
-        border-color: #7EAA92;
+        border-color: $color-borde-inferior;
         .titulo-articulo {
-            color: #4a8064;
+            color: $color-titulo-seccion;
             text-align: center;
             font-size: xx-large;
         }
@@ -40,7 +40,7 @@
 /*** Sección Valores ***/
 
 .valores {
-    margin-bottom: 50px;
+    margin-bottom: $margen-l;
 }
 
 .valores, .misiones {
@@ -54,16 +54,16 @@
 
 .img-icono {
     border-style: dotted;
-    border-width: 5px;
-    border-color: #89c4a6;
-    border-radius: 80px;
+    border-width: $margen-xxss;
+    border-color: $color-borde-punteado;
+    border-radius: $margen-xxl;
     &:hover {
         animation:wobble-horizontal-top .8s linear both
     } 
 }
 
 .img-icono.misiones {
-    border-color: rgb(65, 128, 44);
+    border-color: $color-alternativo;
 }
 
 @keyframes wobble-horizontal-top {
@@ -80,15 +80,15 @@
 /*** Texto debajo de los íconos ***/
 
 .texto-icono {
-    color: #6bb0a4;
+    color: $color-texto-imagen;
     font-size: large;
     font-weight: bolder;
     text-align: center;   
-    margin-top: 20px;
+    margin-top: $margen-xs;
 }
 
 .texto-icono.misiones {
-    color: rgb(70, 105, 58);
+    color: $color-alternativo;
 }
 
 /*** Fin de Texto debajo de los íconos ***/

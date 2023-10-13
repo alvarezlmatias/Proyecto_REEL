@@ -23,7 +23,7 @@
 }
 
 .titulo-seccion.comunidad {
-    margin-top: 70px;
+    margin-top: $margen-xll;
 }
 
 /*** Fin de Títulos ***/
@@ -32,24 +32,24 @@
 
 .subtitulo-seccion.comunidad {
     font-weight: normal;
-    margin-bottom: 30px;
+    margin-bottom: $margen-s;
 }
 
 .subtitulo-seccion.proyectos {
-    margin-top: 70px;
+    margin-top: $margen-xll;
 }
 
 .foto-miembro {
-    border-radius: 30px;
-    margin: 3px;
+    border-radius: $margen-s;
+    margin: $margen-xxs;
     &:hover {
         filter: opacity(50%);
     }
 }
 
 .foto-proyecto {
-    border-radius: 30px;
-    margin: 3px;
+    border-radius: $margen-s;
+    margin: $margen-xxs;
     width: 90%;
     &:hover {
         filter: opacity(50%);
@@ -63,7 +63,7 @@
 .subtitulo-seccion.mapa {
     font-weight: normal;
     margin-left: 250px;
-    margin-bottom: 30px;
+    margin-bottom: $margen-s;
 }
 
 .card {
@@ -72,13 +72,13 @@
     font-size: large;
     text-align: center;
     font-weight: bold;
-    color: #559374;
-    margin-top: 15px;
+    color: $color-texto;
+    margin-top: $margen-xsss;
 }
 
 .mapa {
     margin-right: -180px;
-    margin-left: 100px;
+    margin-left: $margen-xxxl;
 }
 
 /*** Fin de Sección Mapa ***/
@@ -86,12 +86,12 @@
 /*** Sección Contacto ***/
 
 .titulo-seccion.contacto {
-    margin-top: 70px;
+    margin-top: $margen-xll;
 }
 
 .subtitulo-seccion.consultas {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: $margen-l;
+    margin-bottom: $margen-s;
     margin-right: -370px;
     font-weight: normal;
 }
@@ -101,11 +101,11 @@
     height: 40rem;
     text-align: center;
     font-weight:normal;
-    color: #559374;
+    color: $color-texto;
     align-self: center;
     margin-top: -20px;
     margin-left: -30px;
-    margin-right: 80px;
+    margin-right: $margen-xxl;
 }
 
 /*** Fin de Sección Contacto ***/
@@ -114,19 +114,19 @@
 
 .formulario {
     border-style: solid;
-    border-color: white;
-    border-width: 5px;
-    background-color: rgb(197,223,192);
-    border-radius: 50px;
-    padding: 25px;
-    color: #4a8064;
+    border-color: $color-white;
+    border-width: $margen-xxss;
+    background-color: $color-fondo-formulario;
+    border-radius: $margen-l;
+    padding: $margen-sxs;
+    color: $color-titulo-seccion;
     font-size: 17px;
     font-weight: bolder;
     text-align: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: $margen-l;
     .form-check {
-        margin-top: 10px;
+        margin-top: $margen-xss;
         align-content: center;
         text-align: left;
     }
@@ -137,22 +137,22 @@
         font-size: medium !important;
     }
     button {
-        background-color: #4a8064;
-        border-radius: 20px;
+        background-color: $color-titulo-seccion;
+        border-radius: $margen-xs;
         width: 120px;
-        height: 40px;
-        margin-top: 15px;
-        border-color: #89c4a6;
+        height: $margen-m;
+        margin-top: $margen-xsss;
+        border-color: $color-borde-punteado;
         border-style: none;
         font-size: large;
-        letter-spacing: 2px;
-        color: #ffff;
+        letter-spacing: $margen-xxxs;
+        color: $color-white;
         cursor: pointer;
         .submit, .reset {
             align-items: center;
         }
         &:hover {
-            background: #9ED2BE;
+            background: $color-hover-botones;
         }
     }
 }

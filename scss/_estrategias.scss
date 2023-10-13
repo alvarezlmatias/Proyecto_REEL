@@ -15,14 +15,14 @@
 
 .titulo-seccion {
     text-align: center;
-    color: #7fab94;
+    color: $color-titulo-articulo;
     font-size: x-large;
     font-weight: bolder;
-    margin-top: 50px;
+    margin-top: $margen-l;
 }
 
 .titulo-seccion.seccion2-estrategias {
-    margin-bottom: 30px;
+    margin-bottom: $margen-s;
 }
 
 /*** Fin de Títulos ***/
@@ -31,17 +31,17 @@
 
 .articulo-estrategias {
     text-align: justify;
-    line-height: 25px;
-    margin-bottom: 30px;
+    line-height: $margen-sxs;
+    margin-bottom: $margen-s;
     border-bottom: dashed;
-    border-color: #7EAA92;
+    border-color: $color-borde-inferior;
     .titulo-articulo-estrategias {
         text-align: center;
-        color: #7fab94;
+        color: $color-titulo-articulo;
         font-size: large;
         font-weight: bolder;
-        margin-top: 30px;
-        margin-bottom: 25px;
+        margin-top: $margen-s;
+        margin-bottom: $margen-sxs;
     }
 }
 
@@ -52,10 +52,10 @@
 .imagen-estrategias {
     align-items: center;
     border-style: dotted;
-    border-width: 5px;
-    border-color: #89c4a6;
-    border-radius: 50px;
-    margin-left: 50px;
+    border-width: $margen-xxss;
+    border-color: $color-borde-punteado;
+    border-radius: $margen-l;
+    margin-left: $margen-l;
 }
 
 /*** Fin de Imágenes ***/
@@ -67,13 +67,13 @@
     font-size: large;
     font-weight: bold;
     text-align: center;
-    color: #76aa8f;
-    text-indent: 5px;
+    color: $color-fondo-botones;
+    text-indent: $margen-xxss;
     &:hover {
-        color: #9ED2BE !important;
+        color: $color-hover-botones !important;
     }
     .plus-read {
-        margin-right: 10px;
+        margin-right: $margen-xss;
     }
 }
 
@@ -82,11 +82,11 @@
 /*** Segunda sección ***/
 
 .seccion1-estrategias {
-    margin-top: 80px;
+    margin-top: $margen-xxl;
 }
 
 .seccion2-estrategias {
-    margin-bottom: 100px;
+    margin-bottom: $margen-xxxl;
 }
 
 /*** Fin de Segunda sección ***/
