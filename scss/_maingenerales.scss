@@ -3,7 +3,7 @@
 /*** Banner ***/
 
 .banner {
-    width: 100%;
+    width: map-get($ancho, total);
     margin-top: $margen-s;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -16,7 +16,7 @@
 /*** Videos embebidos ***/
 
 .video {
-    width: 560px;
+    width: map-get($ancho, video);
     height: 360px;
     border-radius: $margen-l;
     @extend %estilo-borde; 

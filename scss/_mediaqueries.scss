@@ -86,7 +86,7 @@
 
 @media (min-width: 850px) and (max-width: 991px) {
     .videorecursos {
-        width: 350px; 
+        width: map-get($ancho, videopequenio); 
         height: 250px;
     }
 
@@ -128,7 +128,7 @@
     }
     
     .videorecursos {
-        width: 400px !important; 
+        width: map-get($ancho, videomediano) !important; 
         height: 250px !important;
         margin-top: $margen-xss;
     }
@@ -155,7 +155,7 @@
     }
 
     .videorecursos {
-        width: 400px !important; 
+        width: map-get($ancho, videomediano) !important; 
         height: 250px !important;
         margin-top: $margen-xss;
     }
@@ -182,7 +182,7 @@
     }
 
     .videorecursos {
-        width: 280px !important; 
+        width: map-get($ancho, videomobile) !important; 
         height: 200px !important;
         margin-top: $margen-xss;
     }
@@ -203,7 +203,7 @@
     }
 
     .botonrec {
-        width: 150px !important;
+        width: map-get($ancho, botoncomun) !important;
         font-size: small !important;
     }
 }
@@ -225,7 +225,7 @@
 @media (min-width: 991px) and (max-width: 1206px) {
     .body-contacto {
         overflow-x: hidden !important;
-        width: 100%;
+        width: map-get($ancho, total);
         .card, .card.dos {
             display: none;
         }
@@ -241,7 +241,7 @@
             margin: 0px;
         }
         .formulario {
-            width: 80%;
+            width: map-get($ancho, ochenta);
         }
     }
 }
@@ -249,18 +249,18 @@
 @media (min-width: 300px) and (max-width: 990px) {
     .body-contacto {
         overflow-x: hidden !important;
-        width: 100% !important;
+        width: map-get($ancho, total) !important;
         .subtitulo-seccion.mapa, .mapa, .card, .card.dos {
             display: none;
         }
         .foto-miembro, .foto-proyecto {
-            width: 100%;
+            width: map-get($ancho, total);
         }
         .subtitulo-seccion.consultas {
             margin: 20px 0px;
         }
         .formulario {
-            width: 95%;
+            width: map-get($ancho, noventaycinco);
         }
     }
 }

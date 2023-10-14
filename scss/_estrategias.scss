@@ -27,9 +27,8 @@
 
 .articulo-estrategias {
     @extend %formato-articulo;
+    @extend %estilo-borde-inferior;
     margin-bottom: $margen-s;
-    border-bottom: dashed;
-    border-color: $color-borde-inferior;
     .titulo-articulo-estrategias {
         text-align: center;
         color: $color-titulo-articulo;
@@ -56,10 +55,9 @@
 /*** Botón y texto Leer más ***/
 
 .leer-mas {
+    @extend %formato-texto;
     text-decoration: none !important;
     font-size: large;
-    font-weight: bold;
-    text-align: center;
     color: $color-fondo-botones;
     text-indent: $margen-xxss;
     &:hover {

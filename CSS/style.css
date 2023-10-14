@@ -7,6 +7,13 @@
 /* FIN DE INTERLINEADOS */
 /* BORDES */
 /* FIN DE BORDES */
+/* DISPLAY */
+.imgrec.uno, .imgrec.dos, .vid-recursos, .valores, .misiones, .elemento-seccion {
+  display: grid;
+  place-items: center;
+}
+
+/* FIN DE DISPLAY */
 /* IMÁGENES DE FONDO */
 .fondo-contacto, .fondo-estrategias, .fondo-recursos, .fondo-nosotros {
   background-position: center center;
@@ -42,11 +49,23 @@
 }
 
 /* FIN DE ARTÍCULOS */
+/* TEXTOS */
+.leer-mas, .botones-recursos1 .botonrec, .botones-recursos2 .botonrec, .boton, .titulo-seccion, .subtitulo-seccion {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* FIN DE TEXTOS */
 /* BORDES */
 .imagen-estrategias, .imgrec.uno .imagen-recursos, .imgrec.uno .imagen-recursos2, .imgrec.dos .imagen-recursos, .imgrec.dos .imagen-recursos2, .vid-recursos .videorecursos, .img-icono, .video {
   border-style: dotted;
   border-width: 5px;
   border-color: #89c4a6;
+}
+
+.articulo-estrategias, .articulo-recursos, .seccion-principal2 .articulo2 {
+  border-bottom: dashed;
+  border-color: #7EAA92;
 }
 
 /* FIN DE BORDES */
@@ -57,6 +76,8 @@
 }
 
 /* FIN DE CARDS */
+/* WIDTH */
+/* FIN DE WIDTH */
 /* CUESTIONES GENERALES*/
 /*** Márgenes y paddings ***/
 * {
@@ -68,8 +89,6 @@
 /*** Títulos y subtítulos ***/
 .titulo-seccion, .subtitulo-seccion {
   color: #4a8064 !important;
-  text-align: center;
-  font-weight: bold;
 }
 
 .titulo-seccion {
@@ -89,8 +108,6 @@
   color: #ffffff;
   padding: 15px;
   text-decoration: none;
-  font-weight: bold;
-  text-align: center;
   max-width: fit-content;
 }
 .boton:hover {
@@ -207,10 +224,6 @@ footer ul p {
 
 /*** Fin de Sección principal ***/
 /*** Secciones secundarias ***/
-.elemento-seccion {
-  display: grid;
-  place-items: center;
-}
 .elemento-seccion .imgseccion:hover {
   filter: opacity(50%);
   animation: shake-horizontal 0.8s linear both;
@@ -257,8 +270,6 @@ footer ul p {
 .seccion-principal2 .articulo2 {
   margin-right: 40px;
   margin-top: 40px;
-  border-bottom: dashed;
-  border-color: #7EAA92;
 }
 .seccion-principal2 .articulo2 .titulo-articulo {
   color: #4a8064;
@@ -274,11 +285,6 @@ footer ul p {
 /*** Sección Valores ***/
 .valores {
   margin-bottom: 50px;
-}
-
-.valores, .misiones {
-  display: grid;
-  place-items: center;
 }
 
 /*** Fin de Sección Valores ***/
@@ -349,10 +355,6 @@ footer ul p {
   margin-top: 60px;
 }
 
-.vid-recursos {
-  display: grid;
-  place-items: center;
-}
 .vid-recursos .videorecursos {
   width: 560px;
   height: 360px;
@@ -365,8 +367,6 @@ footer ul p {
   text-align: justify;
   line-height: 40px;
   padding: 15px;
-  border-bottom: dashed;
-  border-color: #7EAA92;
   margin-bottom: 40px;
 }
 
@@ -380,8 +380,6 @@ footer ul p {
 /*** Fin de Subtítulos secciones secundarias ***/
 /*** Imágenes Secciones secundarias ***/
 .imgrec.uno, .imgrec.dos {
-  display: grid;
-  place-items: center;
   margin-top: 10px;
 }
 .imgrec.uno .imagen-recursos, .imgrec.uno .imagen-recursos2, .imgrec.dos .imagen-recursos, .imgrec.dos .imagen-recursos2 {
@@ -399,9 +397,7 @@ footer ul p {
   display: inline-table;
   border-radius: 30px;
   color: #ffffff;
-  text-align: center;
   font-size: large;
-  font-weight: bold;
   text-decoration: none;
   letter-spacing: 0.3px;
   margin-bottom: 10px;
@@ -438,8 +434,6 @@ footer ul p {
 /*** Artículos ***/
 .articulo-estrategias {
   margin-bottom: 30px;
-  border-bottom: dashed;
-  border-color: #7EAA92;
 }
 .articulo-estrategias .titulo-articulo-estrategias {
   text-align: center;
@@ -463,8 +457,6 @@ footer ul p {
 .leer-mas {
   text-decoration: none !important;
   font-size: large;
-  font-weight: bold;
-  text-align: center;
   color: #76aa8f;
   text-indent: 5px;
 }

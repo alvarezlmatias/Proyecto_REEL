@@ -45,8 +45,7 @@
 /*** Secciones secundarias ***/
 
 .elemento-seccion {
-    display: grid;
-    place-items: center;
+    @extend %display;
     .imgseccion {
         &:hover {
             filter: opacity(50%);

@@ -2,7 +2,7 @@
 
 .body-contacto {
     overflow-x: hidden !important;
-    width: 100% !important;
+    width: map-get($ancho, total) !important;
 }
 
 /*** Imagen de fondo de la página ***/
@@ -45,7 +45,7 @@
 }
 
 .foto-proyecto {
-    width: 90%;
+    width: map-get($ancho, noventa);
 }
 
 /*** Fin de Secciones Miembros y Proyectos ***/
@@ -128,7 +128,7 @@
     button {
         background-color: $color-titulo-seccion;
         border-radius: $margen-xs;
-        width: 120px;
+        width: map-get($ancho, botonpequenio);
         height: $margen-m;
         margin-top: $margen-xsss;
         border-color: $color-borde-punteado;

@@ -24,10 +24,9 @@
 }
 
 .vid-recursos {
-    display: grid;
-    place-items: center;
+    @extend %display;
     .videorecursos {
-        width: 560px;
+        width: map-get($ancho, video);
         height: 360px;
         margin-bottom: $margen-xsss;
         border-radius: $margen-l;
@@ -40,9 +39,8 @@
     text-align: justify;
     line-height: $margen-m;
     padding: $margen-xsss;
-    border-bottom: dashed;
-    border-color: $color-borde-inferior;
     margin-bottom: $margen-m;
+    @extend %estilo-borde-inferior;
 }
 
 /*** Fin de Artículo principal ***/
@@ -59,8 +57,7 @@
 /*** Imágenes Secciones secundarias ***/
 
 .imgrec.uno, .imgrec.dos {
-    display: grid;
-    place-items: center;
+    @extend %display;
     margin-top: $margen-xss;
     .imagen-recursos, .imagen-recursos2 {
         @extend %estilo-borde;
@@ -75,18 +72,17 @@
 .botones-recursos1, .botones-recursos2 {
     display: grid;
     .botonrec {
+        @extend %formato-texto;
         background-color: $color-fondo-botones;
         padding: $margen-xs;
         display: inline-table;
         border-radius: $margen-s;
         color: $color-white;
-        text-align: center;
         font-size: large;
-        font-weight: bold;
         text-decoration: none;
         letter-spacing: 0.3px;
         margin-bottom: $margen-xss;
-        width: 200px;
+        width: map-get($ancho, botongrande);
         &:hover {
             background: $color-hover-botones;
         }

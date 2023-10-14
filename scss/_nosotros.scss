@@ -15,10 +15,9 @@
     @extend %margen-seccion-principal;
     .articulo2 {
         @extend %formato-articulo;
+        @extend %estilo-borde-inferior;
         margin-right: $margen-m;
         margin-top: $margen-m;
-        border-bottom: dashed;
-        border-color: $color-borde-inferior;
         .titulo-articulo {
             color: $color-titulo-seccion;
             text-align: center;
@@ -40,8 +39,7 @@
 }
 
 .valores, .misiones {
-    display: grid;
-    place-items: center;
+    @extend %display;
 }
 
 /*** Fin de Sección Valores ***/

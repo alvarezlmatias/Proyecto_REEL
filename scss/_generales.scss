@@ -13,8 +13,7 @@
 
 .titulo-seccion, .subtitulo-seccion {
     color: $color-titulo-seccion !important;
-    text-align: center;
-    font-weight: bold;
+    @extend %formato-texto;
 }
 
 .titulo-seccion {
@@ -36,9 +35,8 @@
     color: $color-white;
     padding: $margen-xsss;
     text-decoration: none;
-    font-weight: bold;
-    text-align: center;
     max-width: fit-content;
+    @extend %formato-texto;
     &:hover {
         background: $color-hover-botones !important;
     }    
