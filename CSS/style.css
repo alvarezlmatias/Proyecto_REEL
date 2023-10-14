@@ -78,6 +78,8 @@
 /* FIN DE CARDS */
 /* WIDTH */
 /* FIN DE WIDTH */
+/* HEIGHT */
+/* FIN DE HEIGHT */
 /* CUESTIONES GENERALES*/
 /*** Márgenes y paddings ***/
 * {
@@ -480,11 +482,13 @@ footer ul p {
 /*** Fin de Segunda sección ***/
 /* FIN DE PÁGINA ESTRATEGIAS */
 /* PÁGINA CONTACTO */
+/*** Body ***/
 .body-contacto {
   overflow-x: hidden !important;
   width: 100% !important;
 }
 
+/*** Fin de Body ***/
 /*** Imagen de fondo de la página ***/
 .fondo-contacto {
   background-image: url(../img/Fondo5.webp);

@@ -1,9 +1,13 @@
 /* PÁGINA CONTACTO */
 
+/*** Body ***/
+
 .body-contacto {
     overflow-x: hidden !important;
     width: map-get($ancho, total) !important;
 }
+
+/*** Fin de Body ***/
 
 /*** Imagen de fondo de la página ***/
 
@@ -54,7 +58,7 @@
 
 .subtitulo-seccion.mapa {
     @extend %subtitulo-seccion;
-    margin-left: 250px;
+    margin-left: $margen-xxxxxl;
 }
 
 .card {
@@ -129,7 +133,7 @@
         background-color: $color-titulo-seccion;
         border-radius: $margen-xs;
         width: map-get($ancho, botonpequenio);
-        height: $margen-m;
+        height: map-get($alto, boton);
         margin-top: $margen-xsss;
         border-color: $color-borde-punteado;
         border-style: none;

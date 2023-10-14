@@ -17,7 +17,7 @@
 
 .video {
     width: map-get($ancho, video);
-    height: 360px;
+    height: map-get($alto, video);
     border-radius: $margen-l;
     @extend %estilo-borde; 
 }

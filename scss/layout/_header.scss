@@ -6,7 +6,7 @@
     border-bottom-color: $color-borde;
     border-width: $borde-l;
     .logo {
-        height: $margen-xxxl;
+        height: map-get($alto, logoh);
         margin: $margen-xs;
         padding-left: $margen-xs;
     }

@@ -4,7 +4,7 @@
 
 .carousel-inner, .carousel-item {
     margin: 10px 0px 10px 0px;
-    height: 500px; 
+    height: map-get($alto, banner); 
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -61,8 +61,8 @@
         }
     }
     .badge.inicio {
-        margin-bottom: 150px !important;
-        margin-left: 250px !important;
+        margin-bottom: $margen-xxxxl !important;
+        margin-left: $margen-xxxxxl !important;
     }
 }
     

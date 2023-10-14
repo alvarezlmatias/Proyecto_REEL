@@ -56,7 +56,7 @@
         font-size: larger;
         line-height: $interlineado-general;
         margin-right: -350px;
-        margin-left: 150px;
+        margin-left: $margen-xxxxl;
     }
 }   
 
@@ -87,7 +87,7 @@
 @media (min-width: 850px) and (max-width: 991px) {
     .videorecursos {
         width: map-get($ancho, videopequenio); 
-        height: 250px;
+        height: map-get($alto, videochico);
     }
 
     .articulo-recursos {
@@ -129,7 +129,7 @@
     
     .videorecursos {
         width: map-get($ancho, videomediano) !important; 
-        height: 250px !important;
+        height: map-get($alto, videochico) !important;
         margin-top: $margen-xss;
     }
 
@@ -156,7 +156,7 @@
 
     .videorecursos {
         width: map-get($ancho, videomediano) !important; 
-        height: 250px !important;
+        height: map-get($alto, videochico) !important;
         margin-top: $margen-xss;
     }
 
@@ -183,7 +183,7 @@
 
     .videorecursos {
         width: map-get($ancho, videomobile) !important; 
-        height: 200px !important;
+        height: map-get($alto, videomaschico) !important;
         margin-top: $margen-xss;
     }
 

@@ -27,7 +27,7 @@
     @extend %display;
     .videorecursos {
         width: map-get($ancho, video);
-        height: 360px;
+        height: map-get($alto, video);
         margin-bottom: $margen-xsss;
         border-radius: $margen-l;
         @extend %estilo-borde;
