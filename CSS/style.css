@@ -702,7 +702,7 @@ footer ul p {
     margin-right: -80px;
   }
   .subtitulo-seccion.rec {
-    font-size: larger;
+    font-size: x-large;
     margin-top: 20px;
   }
   .botones-recursos1, .botones-recursos2 {
@@ -768,7 +768,7 @@ footer ul p {
 }
 @media (min-width: 300px) and (max-width: 480px) {
   .titulo-seccion.Recursos {
-    font-size: larger !important;
+    font-size: x-large !important;
   }
   .videorecursos {
     width: 280px !important;
@@ -781,7 +781,7 @@ footer ul p {
     font-size: medium !important;
   }
   .subtitulo-seccion.rec {
-    font-size: larger;
+    font-size: x-large;
     margin-top: 20px;
   }
   .botones-recursos1, .botones-recursos2 {
