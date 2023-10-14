@@ -17,11 +17,12 @@
         @extend %formato-articulo;
         @extend %estilo-borde-inferior;
         margin-right: $margen-m;
-        margin-top: $margen-m;
+        margin-top: $margen-s;
         .titulo-articulo {
             color: $color-titulo-seccion;
             text-align: center;
             font-size: xx-large;
+            margin-bottom: 30px;
         }
     }
     .video.articulo2 {
@@ -72,7 +73,7 @@
 /*** Texto debajo de los íconos ***/
 
 .texto-icono {
-    color: $color-texto-imagen;
+    color: $color-titulo-seccion;
     font-size: large;
     font-weight: bolder;
     text-align: center;   

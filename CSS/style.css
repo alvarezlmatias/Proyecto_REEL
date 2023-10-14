@@ -32,7 +32,7 @@
 /* TÍTULOS Y SUBTÍTULOS */
 .titulo-seccion, .seccion-principal .articulo1 .titulo-articulo {
   text-align: center;
-  color: #7fab94;
+  color: #4a8064;
   font-size: x-large;
 }
 
@@ -271,12 +271,13 @@ footer ul p {
 /*** Sección principal ***/
 .seccion-principal2 .articulo2 {
   margin-right: 40px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .seccion-principal2 .articulo2 .titulo-articulo {
   color: #4a8064;
   text-align: center;
   font-size: xx-large;
+  margin-bottom: 30px;
 }
 .seccion-principal2 .video.articulo2 {
   margin-top: -10px;
@@ -326,7 +327,7 @@ footer ul p {
 /*** Fin de Sección Misiones ***/
 /*** Texto debajo de los íconos ***/
 .texto-icono {
-  color: #6bb0a4;
+  color: #4a8064;
   font-size: large;
   font-weight: bolder;
   text-align: center;
@@ -367,9 +368,9 @@ footer ul p {
 .articulo-recursos {
   font-size: large;
   text-align: justify;
-  line-height: 40px;
+  line-height: 30px;
   padding: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 /*** Fin de Artículo principal ***/
@@ -435,12 +436,13 @@ footer ul p {
 /*** Fin de Títulos ***/
 /*** Artículos ***/
 .articulo-estrategias {
+  font-size: 17px;
   margin-bottom: 30px;
 }
 .articulo-estrategias .titulo-articulo-estrategias {
   text-align: center;
   color: #7fab94;
-  font-size: large;
+  font-size: larger;
   font-weight: bolder;
   margin-top: 30px;
   margin-bottom: 25px;

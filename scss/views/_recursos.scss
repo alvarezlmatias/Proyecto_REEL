@@ -37,9 +37,9 @@
 .articulo-recursos {
     font-size: large;
     text-align: justify;
-    line-height: $margen-m;
+    line-height: $margen-s;
     padding: $margen-xsss;
-    margin-bottom: $margen-m;
+    margin-bottom: $margen-xss;
     @extend %estilo-borde-inferior;
 }
 
