@@ -43,6 +43,7 @@
 .foto-miembro, .foto-proyecto {
     border-radius: $margen-s;
     margin: $margen-xxs;
+    @extend %display; 
     &:hover {
         filter: opacity(50%);
     }
