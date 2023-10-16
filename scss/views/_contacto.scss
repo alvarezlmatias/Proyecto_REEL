@@ -60,42 +60,6 @@
     } 
 }
 
-.bloque-proyectos {
-    position: relative;
-    .foto-proyecto {
-        opacity: 1;
-        display: block;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
-}
-
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    .texto-hover {
-        color: rgb(89, 150, 98);
-        font-size: 15px;
-        font-weight: bold;
-        text-align: center;
-        margin-right: 22px;
-    }
-}
-
-.bloque-proyectos:hover .foto-proyecto {
-    opacity: 0.3;
-}
-
-.bloque-proyectos:hover .middle {
-    opacity: 1;
-}
-
 /*** Fin de Secciones Miembros y Proyectos ***/
 
 /*** Sección Mapa ***/
