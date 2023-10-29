@@ -16,8 +16,9 @@
     .articulo2 {
         @extend %formato-articulo;
         @extend %estilo-borde-inferior;
+        margin-left: 50px;
         margin-right: $margen-m;
-        margin-top: $margen-s;
+        margin-top: $margen-xsss;
         .titulo-articulo {
             color: $color-titulo-seccion;
             text-align: center;
@@ -28,6 +29,7 @@
     .video.articulo2 {
         margin-top: -10px;
         margin-left: -30px;
+        width: 500px;
     }
 }
 
@@ -50,6 +52,7 @@
 .img-icono {
     @extend %estilo-borde;  
     border-radius: $margen-xxl;
+    box-shadow: 0px 11px 16px rgba(8, 8, 8, 0.741) !important;
     &:hover {
         animation:wobble-horizontal-top .8s linear both
     } 

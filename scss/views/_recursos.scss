@@ -39,6 +39,8 @@
     text-align: justify;
     line-height: $margen-s;
     padding: $margen-xsss;
+    margin-left: 80px;
+    margin-right: 80px;
     margin-bottom: $margen-xss;
     @extend %estilo-borde-inferior;
 }
@@ -59,6 +61,7 @@
 .imgrec.uno, .imgrec.dos {
     @extend %display;
     margin-top: $margen-xss;
+    width: map-get($ancho, total);
     .imagen-recursos, .imagen-recursos2 {
         @extend %estilo-borde;
         border-radius: $margen-l;
