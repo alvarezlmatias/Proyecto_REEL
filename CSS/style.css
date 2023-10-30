@@ -859,8 +859,9 @@ footer ul p {
     place-items: center !important;
   }
   .botonrec {
+    place-items: center !important;
     font-size: medium;
-    max-width: 45vh !important;
+    max-width: 40vh !important;
   }
 }
 @media (min-width: 340px) and (max-width: 374px) {
@@ -886,7 +887,7 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 40vh !important;
+    max-width: 35vh !important;
   }
 }
 @media (min-width: 320px) and (max-width: 339px) {
@@ -912,7 +913,7 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 35vh !important;
+    max-width: 30vh !important;
   }
 }
 /* FIN DE MEDIA QUERIES PÁGINA RECURSOS */
