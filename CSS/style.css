@@ -132,7 +132,7 @@
 /*** Fin de Banner ***/
 /*** Videos embebidos ***/
 .video {
-  width: 560px;
+  width: 500px;
   height: 360px;
   border-radius: 50px;
 }
@@ -215,12 +215,16 @@ footer ul p {
 
 /*** Fin de Carrusel ***/
 /*** Sección principal ***/
+.seccion-principal .video.inicio {
+  margin-left: 35px;
+}
 .seccion-principal .articulo1 {
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-right: 40px;
 }
 .seccion-principal .articulo1 .titulo-articulo {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -270,7 +274,7 @@ footer ul p {
 /*** Fin de imagen de fondo de la página ***/
 /*** Sección principal ***/
 .seccion-principal2 .articulo2 {
-  margin-left: 50px;
+  margin-left: 40px;
   margin-right: 40px;
   margin-top: 15px;
 }
@@ -362,7 +366,7 @@ footer ul p {
 }
 
 .vid-recursos .videorecursos {
-  width: 560px;
+  width: 500px;
   height: 360px;
   margin-bottom: 15px;
   border-radius: 50px;
@@ -373,8 +377,8 @@ footer ul p {
   text-align: justify;
   line-height: 30px;
   padding: 15px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 10px;
 }
 
@@ -402,7 +406,7 @@ footer ul p {
 }
 .botones-recursos1 .botonrec, .botones-recursos2 .botonrec {
   background-color: #76aa8f;
-  padding: 20px;
+  padding: 25px;
   display: inline-table;
   border-radius: 30px;
   color: #ffffff;
@@ -410,7 +414,7 @@ footer ul p {
   text-decoration: none;
   letter-spacing: 0.3px;
   margin-bottom: 10px;
-  width: 300px;
+  width: 330px;
 }
 .botones-recursos1 .botonrec:hover, .botones-recursos2 .botonrec:hover {
   background: #9ED2BE;

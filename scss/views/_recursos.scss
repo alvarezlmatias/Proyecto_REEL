@@ -39,8 +39,8 @@
     text-align: justify;
     line-height: $margen-s;
     padding: $margen-xsss;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: $margen-l;
+    margin-right: $margen-l;
     margin-bottom: $margen-xss;
     @extend %estilo-borde-inferior;
 }
@@ -77,7 +77,7 @@
     .botonrec {
         @extend %formato-texto;
         background-color: $color-fondo-botones;
-        padding: $margen-xs;
+        padding: $margen-sxs;
         display: inline-table;
         border-radius: $margen-s;
         color: $color-white;

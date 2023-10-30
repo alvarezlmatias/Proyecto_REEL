@@ -28,13 +28,17 @@
 
 .seccion-principal {
     @extend %margen-seccion-principal;
+    .video.inicio {
+        margin-left: $margen-sm;
+    }
     .articulo1 {
         @extend %formato-articulo;
-        margin-left: $margen-s;
+        margin-left: $margen-xs;
+        margin-right: $margen-m;
         .titulo-articulo {
             @extend %titulo-articulo;
             font-weight: bold;
-            margin-top: $margen-xss;
+            margin-top: $margen-xs;
             margin-bottom: $margen-xs;
         }
     }
