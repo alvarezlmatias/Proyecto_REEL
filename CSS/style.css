@@ -8,7 +8,7 @@
 /* BORDES */
 /* FIN DE BORDES */
 /* DISPLAY */
-.foto-miembro, .foto-proyecto, .imgrec.uno, .imgrec.dos, .vid-recursos, .valores, .misiones, .elemento-seccion {
+.foto-miembro, .foto-proyecto, .botones-recursos1, .botones-recursos2, .imgrec.uno, .imgrec.dos, .vid-recursos, .valores, .misiones, .elemento-seccion {
   display: grid;
   place-items: center;
 }
@@ -401,9 +401,6 @@ footer ul p {
 
 /*** Fin de Imágenes Secciones secundarias ***/
 /*** Botones Secciones secundarias ***/
-.botones-recursos1, .botones-recursos2 {
-  display: grid;
-}
 .botones-recursos1 .botonrec, .botones-recursos2 .botonrec {
   background-color: #76aa8f;
   padding: 25px;

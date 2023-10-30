@@ -73,7 +73,7 @@
 /*** Botones Secciones secundarias ***/
 
 .botones-recursos1, .botones-recursos2 {
-    display: grid;
+    @extend %display;
     .botonrec {
         @extend %formato-texto;
         background-color: $color-fondo-botones;
