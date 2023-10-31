@@ -527,10 +527,6 @@ footer ul p {
   filter: opacity(50%);
 }
 
-.foto-proyecto {
-  width: 75%;
-}
-
 .zoom {
   transition: transform 0.2s;
 }

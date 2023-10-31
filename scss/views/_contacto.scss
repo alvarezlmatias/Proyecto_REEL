@@ -53,10 +53,6 @@
     @extend %display;
 }
 
-.foto-proyecto {
-    width: 75%;
-}
-
 .zoom {
     transition: transform .2s;
     &:hover {
