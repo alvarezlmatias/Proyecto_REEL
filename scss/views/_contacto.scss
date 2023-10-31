@@ -49,8 +49,12 @@
     }
 }
 
+.bloque-proyectos {
+    @extend %display;
+}
+
 .foto-proyecto {
-    width: map-get($ancho, noventa);
+    width: 75%;
 }
 
 .zoom {
@@ -66,21 +70,21 @@
 
 .subtitulo-seccion.mapa {
     @extend %subtitulo-seccion;
-    margin-left: $margen-xxxxxl;
+    margin-left: $margen-xxxxxll;
 }
 
 .card {
-    width: 18rem;
+    width: 26rem;
     height: 22rem;
     @extend %formato-cards;
     font-size: large;
     font-weight: bold;
-    margin-top: $margen-xsss;
+    margin-top: $margen-xs;
 }
 
 .mapa {
-    margin-right: -180px;
-    margin-left: $margen-xxxl;
+    margin-right: -140px;
+    margin-left: $margen-xxxxl;
 }
 
 /*** Fin de Sección Mapa ***/
@@ -99,14 +103,14 @@
 }
 
 .card.dos {
-    width: 20rem;
+    width: 19rem;
     height: 40rem;
     @extend %formato-cards;
     font-weight: normal;
     align-self: center;
     margin-top: -20px;
     margin-left: -30px;
-    margin-right: $margen-xxl;
+    margin-right: $margen-xxxl;
 }
 
 /*** Fin de Sección Contacto ***/

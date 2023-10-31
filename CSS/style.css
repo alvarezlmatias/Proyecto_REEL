@@ -8,7 +8,7 @@
 /* BORDES */
 /* FIN DE BORDES */
 /* DISPLAY */
-.foto-miembro, .foto-proyecto, .botones-recursos1, .botones-recursos2, .imgrec.uno, .imgrec.dos, .vid-recursos, .valores, .misiones, .elemento-seccion {
+.bloque-proyectos, .foto-miembro, .foto-proyecto, .botones-recursos1, .botones-recursos2, .imgrec.uno, .imgrec.dos, .vid-recursos, .valores, .misiones, .elemento-seccion {
   display: grid;
   place-items: center;
 }
@@ -528,7 +528,7 @@ footer ul p {
 }
 
 .foto-proyecto {
-  width: 90%;
+  width: 75%;
 }
 
 .zoom {
@@ -541,20 +541,20 @@ footer ul p {
 /*** Fin de Secciones Miembros y Proyectos ***/
 /*** Sección Mapa ***/
 .subtitulo-seccion.mapa {
-  margin-left: 250px;
+  margin-left: 420px;
 }
 
 .card {
-  width: 18rem;
+  width: 26rem;
   height: 22rem;
   font-size: large;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .mapa {
-  margin-right: -180px;
-  margin-left: 100px;
+  margin-right: -140px;
+  margin-left: 150px;
 }
 
 /*** Fin de Sección Mapa ***/
@@ -571,13 +571,13 @@ footer ul p {
 }
 
 .card.dos {
-  width: 20rem;
+  width: 19rem;
   height: 40rem;
   font-weight: normal;
   align-self: center;
   margin-top: -20px;
   margin-left: -30px;
-  margin-right: 80px;
+  margin-right: 100px;
 }
 
 /*** Fin de Sección Contacto ***/
@@ -857,7 +857,6 @@ footer ul p {
     place-items: center !important;
   }
   .botonrec {
-    place-items: center !important;
     font-size: medium;
     max-width: 40vh !important;
   }
