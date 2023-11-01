@@ -801,7 +801,7 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 60vh !important;
+    max-width: 50vh !important;
   }
 }
 @media (min-width: 400px) and (max-width: 449px) {
@@ -827,7 +827,7 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 50vh !important;
+    max-width: 40vh !important;
   }
 }
 @media (min-width: 375px) and (max-width: 399px) {
@@ -854,7 +854,7 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 40vh !important;
+    max-width: 35vh !important;
   }
 }
 @media (min-width: 340px) and (max-width: 374px) {
@@ -881,7 +881,7 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 35vh !important;
+    max-width: 30vh !important;
   }
 }
 @media (min-width: 320px) and (max-width: 339px) {
