@@ -348,6 +348,12 @@ footer ul p {
 /*** Fin de Texto debajo de los íconos ***/
 /* FIN DE PÁGINA NOSOTROS */
 /* PÁGINA RECURSOS */
+/*** Body ***/
+.body-recursos {
+  overflow-x: hidden !important;
+}
+
+/*** Fin de Body ***/
 /*** Banner ***/
 .banner-recursos {
   margin-top: 2px;
@@ -801,10 +807,11 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 50vh !important;
+    margin-left: 15px;
+    max-width: 90% !important;
   }
 }
-@media (min-width: 400px) and (max-width: 449px) {
+@media (min-width: 430px) and (max-width: 449px) {
   .titulo-seccion.Recursos {
     font-size: x-large !important;
   }
@@ -827,37 +834,11 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 40vh !important;
+    margin-left: 15px;
+    max-width: 80% !important;
   }
 }
-@media (min-width: 375px) and (max-width: 399px) {
-  .titulo-seccion.Recursos {
-    font-size: x-large !important;
-  }
-  .videorecursos {
-    width: 280px !important;
-    height: 200px !important;
-    margin-top: 10px;
-  }
-  .articulo-recursos {
-    margin-left: -20px !important;
-    margin-right: -20px !important;
-    font-size: medium !important;
-  }
-  .subtitulo-seccion.rec {
-    font-size: x-large;
-    margin-top: 20px;
-  }
-  .botones-recursos1, .botones-recursos2 {
-    margin: 0px !important;
-    place-items: center !important;
-  }
-  .botonrec {
-    font-size: medium;
-    max-width: 35vh !important;
-  }
-}
-@media (min-width: 340px) and (max-width: 374px) {
+@media (min-width: 406px) and (max-width: 429px) {
   .titulo-seccion.Recursos {
     font-size: x-large !important;
   }
@@ -881,10 +862,11 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 30vh !important;
+    margin-left: 20px;
+    max-width: 70% !important;
   }
 }
-@media (min-width: 320px) and (max-width: 339px) {
+@media (min-width: 390px) and (max-width: 405px) {
   .titulo-seccion.Recursos {
     font-size: x-large !important;
   }
@@ -908,7 +890,92 @@ footer ul p {
   }
   .botonrec {
     font-size: medium;
-    max-width: 30vh !important;
+    margin-left: 20px;
+    max-width: 65% !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 389px) {
+  .titulo-seccion.Recursos {
+    font-size: x-large !important;
+  }
+  .videorecursos {
+    width: 280px !important;
+    height: 200px !important;
+    margin-top: 10px;
+  }
+  .articulo-recursos {
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    font-size: medium !important;
+  }
+  .subtitulo-seccion.rec {
+    font-size: x-large;
+    margin-top: 20px;
+  }
+  .botones-recursos1, .botones-recursos2 {
+    margin: 0px !important;
+    place-items: center !important;
+  }
+  .botonrec {
+    font-size: medium;
+    margin-left: 20px;
+    max-width: 60% !important;
+  }
+}
+@media (min-width: 350px) and (max-width: 374px) {
+  .titulo-seccion.Recursos {
+    font-size: x-large !important;
+  }
+  .videorecursos {
+    width: 280px !important;
+    height: 200px !important;
+    margin-top: 10px;
+  }
+  .articulo-recursos {
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    font-size: medium !important;
+  }
+  .subtitulo-seccion.rec {
+    font-size: x-large;
+    margin-top: 20px;
+  }
+  .botones-recursos1, .botones-recursos2 {
+    margin: 0px !important;
+    place-items: center !important;
+  }
+  .botonrec {
+    font-size: medium;
+    margin-left: 20px;
+    max-width: 55% !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 349px) {
+  .titulo-seccion.Recursos {
+    font-size: x-large !important;
+  }
+  .videorecursos {
+    width: 280px !important;
+    height: 200px !important;
+    margin-top: 10px;
+  }
+  .articulo-recursos {
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    font-size: medium !important;
+  }
+  .subtitulo-seccion.rec {
+    font-size: x-large;
+    margin-top: 20px;
+  }
+  .botones-recursos1, .botones-recursos2 {
+    margin: 0px !important;
+    place-items: center !important;
+  }
+  .botonrec {
+    font-size: medium;
+    margin-left: 10px;
+    max-width: 50% !important;
   }
 }
 /* FIN DE MEDIA QUERIES PÁGINA RECURSOS */
